@@ -14,30 +14,30 @@
 <ul>
 <li><a href="#">Contactos</a></li>
 <li><a href="#">Clientes</a></li>
-<li><a href="#">Noticias</a></li>
-<li><a href="#">Empresa</a></li>
-<li class="active">Inicio</li>
+<li><a href="#"> Suporte</a></li>
+<li><a href="#">Acerca de</a></li>
+<li class="active">Principal</li>
 </ul>
 <a href="index.html"><%= image_tag "logo_wibo.JPG", :border=> "0" %></a>
 <div id="headerPanelfast">
-	<h2>Proyectos</h2>
+	<h2>Diseño</h2>
 	<p>Tus objetivos nuestras metas</p>
 	<a href="#">
 &nbsp;	</a></div>
 <div id="headerPanelsecond">
-	<h2>Hosting</h2>
-	<p>Hospedaje web y mucho mas</p>
+	<h2>Proyectos</h2>
+	<p>Desarrollamos tus sueños </p>
 	<a href="#">
 &nbsp;	</a></div>
 <div id="headerPanelthird">
 	<h2>Servicios</h2>
-	<p>Desarrollamos tus sueños </p>
+	<p>Hospedaje web y mucho mas </p>
 	<a href="#">
 &nbsp;	</a></div>
 </div>
 <div id="bodyPanel">
-	<h2>Acerca de</h2>
-	<p>Wibo S.R.L. es <span>ingenieria en software</span> web design layout by Template World. This template has been tested and proven compatible with all major browser environments and operating systems. You are free to modify the design to suit your tastes in any way you like. We only ask you to not remove "Design by Template World" and the link http://www.templateworld.com from the footer of the template.</p>
+	<h2>About Us</h2>
+	<p>Trial Services is a <span>free, tableless, W3C-compliant</span> web design layout by Template World. This template has been tested and proven compatible with all major browser environments and operating systems. You are free to modify the design to suit your tastes in any way you like. We only ask you to not remove "Design by Template World" and the link http://www.templateworld.com from the footer of the template.</p>
 	<p class="dotline"><img src="images/blank.gif" alt="" width="1" height="1" /></p>
 	<p class="capstext">If you are interested in seeing more of our free web template designs feel free to visit our website, Template World. We intend to add at least 25 new free templates in the coming month.</p>
 	<p class="dotline"><img src="images/blank.gif" alt="" width="1" height="1" /></p>
@@ -62,13 +62,17 @@
 <div id="footerPanel">
   <div id="footerbodyPanel">
   <ul>
-  <li><a href="#">Inicio </a>| </li>
-  <li><a href="#">Empresa </a> | </li>
-  <li><a href="#">Noticias </a>| </li>
-  <li><a href="#">Clientes </a> | </li>
-  <li><a href="#">Contactos </a> </li>
+  <li><a href="#">Home </a>| </li>
+  <li><a href="#">About us</a> | </li>
+  <li><a href="#">Support </a>| </li>
+  <li><a href="#">Clients</a> | </li>
+  <li><a href="#">Contact </a> </li>
   </ul>
-  <p class="copyright">© Wibo sudando software.</p>
+  <p class="copyright">© trial services all right reaserved</p>
+  <ul class="templateworld">
+  	<li>Design By:</li>
+	<li><a href="http://www.templateworld.com" target="_blank">Template World</a></li>
+  </ul>
    <div id="footerhtmlPanel"><a href="http://validator.w3.org/check?uri=referer" target="_blank">html</a></div>
    <div id="footercssPanel"><a href="http://jigsaw.w3.org/css-validator/check/referer" target="_blank">css</a></div>
   </div>
