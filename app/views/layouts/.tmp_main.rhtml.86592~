@@ -12,10 +12,10 @@
 <body>
 <div id="topPanel">
 <ul>
-<li><%= link_to 'Contactos', {:action => "contactos"}%></li>
-<li><%= link_to 'Clientes', {:action => "clientes"}%></li>
-<li><%= link_to 'Noticias', {:action => "noticias"}%></li>
-<li><%= link_to 'Empresa', {:action => "empresa"} %></li>
+<li><a href="#">Contactos</a></li>
+<li><a href="#">Clientes</a></li>
+<li><a href="#">Noticias</a></li>
+<li><%= link_to 'Empresa',empresa %></li>
 <li class="active">Inicio</li>
 </ul>
 <a href="index.html"><%= image_tag "logo_wibo.JPG", :border=> "0" %></a>

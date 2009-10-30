@@ -6,4 +6,20 @@ class MainController < ApplicationController
     
   end
   
+  def empresa
+    
+  end
+  
+  def noticias
+    
+  end
+  
+  def clientes
+    
+  end
+  
+  def contactos
+    
+  end
+  
 end
