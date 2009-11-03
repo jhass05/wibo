@@ -22,17 +22,17 @@
 <div id="headerPanelfast">
 	<h2>Proyectos</h2>
 	<p>Tus objetivos nuestras metas</p>
-	<%= link_to '', {:action => "proyectos"} %>
+	<a href="#">
 	</a></div>
 <div id="headerPanelsecond">
 	<h2>Hosting</h2>
 	<p>Hospedaje web y mucho mas</p>
-	<%= link_to '', {:action => "hosting"} %>
+	<a href="#">
 	</a></div>
 <div id="headerPanelthird">
 	<h2>Servicios</h2>
 	<p>Desarrollamos tus sueños </p>
-	<%= link_to '', {:action => "servicios"} %>
+	<a href="#">
 	</a></div>
 </div>
 

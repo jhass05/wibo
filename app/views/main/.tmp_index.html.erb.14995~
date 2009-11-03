@@ -1,10 +1,10 @@
-<h2>Acerca de</h2>
-	<p>Wibo S.R.L. es <span>ingenieria en software</span> especializada en el desarrollo, integracion e implementacion de soluciones tecnologias, a la mendida de las necesidades de su organizacion. Esto es posible mediante la gestion de un grupo de profecionales especializados en la realizacion de proyectos y soluciones teconologicas, comprometidos a prestar servicios personalizados utilizando estandares y metodologias internacionales. </p>
+	<h2>Acerca de</h2>
+	<p>Wibo S.R.L. es <span>ingenieria en software</span> web design layout by Template World. This template has been tested and proven compatible with all major browser environments and operating systems. You are free to modify the design to suit your tastes in any way you like. We only ask you to not remove "Design by Template World" and the link http://www.templateworld.com from the footer of the template.</p>
 	<p class="dotline"><img src="images/blank.gif" alt="" width="1" height="1" /></p>
-	<p class="capstext">Amamos lo que hacemos, hacemos lo que amamos porque la mejor forma de hacer el futuro es inventandolo.</p>
+	<p class="capstext">If you are interested in seeing more of our free web template designs feel free to visit our website, Template World. We intend to add at least 25 new free templates in the coming month.</p>
 	<p class="dotline"><img src="images/blank.gif" alt="" width="1" height="1" /></p>
-	
-	<!--<h3>Testimonials</h3>
+	<p class="more"><a href="#">More</a></p>
+	<h3>Testimonials</h3>
 	<h4>Solutions</h4>
 	<ul>
 	<li><span>Popularised in the 1960s with</span> </li>
@@ -20,4 +20,3 @@
     Lorem Ipsum has been the.ing essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum</p>
 	<p class="moretwo"><a href="#">More</a></p>
 </div>
--->

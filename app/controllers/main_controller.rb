@@ -22,6 +22,17 @@ class MainController < ApplicationController
     
   end
   
+  def proyectos
+    
+  end
+  
+  def hosting
+    
+  end
+  
+  def servicios
+    
+  end
   
   
 end
