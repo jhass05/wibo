@@ -19,7 +19,9 @@ class MainController < ApplicationController
   end
   
   def contactos
-    
+     
+     @contacto = Contacto.new
+     
   end
   
   
