@@ -22,6 +22,7 @@ class MainController < ApplicationController
      
      @contacto = Contacto.new
      
+     
   end
   
   def proyectos

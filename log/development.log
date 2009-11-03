@@ -7755,3 +7755,402 @@ ActionView::TemplateError (undefined method `contactos_path' for #<ActionView::B
 Rendered rescues/_trace (405.0ms)
 Rendered rescues/_request_and_response (0.9ms)
 Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (73.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (18.4ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MainController#contactos (for 127.0.0.1 at 2009-11-03 11:22:32) [GET]
+  [4;36;1mContacto Columns (196.4ms)[0m   [0;1mSHOW FIELDS FROM `contactos`[0m
+Rendering template within layouts/main
+Rendering main/contactos
+
+ActionView::TemplateError (undefined local variable or method `f' for #<ActionView::Base:0x7f58067b48e0>) on line #3 of app/views/main/_form_contact.html.erb:
+1: 
+2:   <p>
+3:     <%= f.label :name %><br />
+4:     <%= f.text_field :name %>
+5:   </p>
+6:   <p>
+
+    app/views/main/_form_contact.html.erb:3
+    app/views/main/contactos.html.erb:18
+    /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+    -e:2:in `load'
+    -e:2
+
+Rendered rescues/_trace (465.0ms)
+Rendered rescues/_request_and_response (1.0ms)
+Rendering rescues/layout (internal_server_error)
+  [4;35;1mSQL (0.2ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MainController#contactos (for 127.0.0.1 at 2009-11-03 11:23:51) [GET]
+  [4;35;1mContacto Columns (1.8ms)[0m   [0mSHOW FIELDS FROM `contactos`[0m
+Rendering template within layouts/main
+Rendering main/contactos
+
+ActionView::TemplateError (undefined method `name' for #<Contacto id: nil, created_at: nil, updated_at: nil>) on line #2 of app/views/main/_form_contact.html.erb:
+1: <p><label >First name</label><br/>
+2: <%= text_field 'contacto', 'name' %></p>
+3: <p><label >Last name</label><br/>
+4: <%= text_field 'contacto', 'telephone' %></p>
+
+    app/views/main/_form_contact.html.erb:2
+    app/views/main/contactos.html.erb:18
+    /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+    -e:2:in `load'
+    -e:2
+
+Rendered rescues/_trace (153.4ms)
+Rendered rescues/_request_and_response (1.1ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MainController#contactos (for 127.0.0.1 at 2009-11-03 11:23:52) [GET]
+  [4;36;1mContacto Columns (1.8ms)[0m   [0;1mSHOW FIELDS FROM `contactos`[0m
+Rendering template within layouts/main
+Rendering main/contactos
+
+ActionView::TemplateError (undefined method `name' for #<Contacto id: nil, created_at: nil, updated_at: nil>) on line #2 of app/views/main/_form_contact.html.erb:
+1: <p><label >First name</label><br/>
+2: <%= text_field 'contacto', 'name' %></p>
+3: <p><label >Last name</label><br/>
+4: <%= text_field 'contacto', 'telephone' %></p>
+
+    app/views/main/_form_contact.html.erb:2
+    app/views/main/contactos.html.erb:18
+    /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+    -e:2:in `load'
+    -e:2
+
+Rendered rescues/_trace (152.0ms)
+Rendered rescues/_request_and_response (0.9ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (59.7ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (84.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (30.5ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (695.4ms)[0m   [0mCREATE TABLE `schema_migrations` (`version` varchar(255) NOT NULL) ENGINE=InnoDB[0m
+  [4;36;1mSQL (456.4ms)[0m   [0;1mCREATE UNIQUE INDEX `unique_schema_migrations` ON `schema_migrations` (`version`)[0m
+  [4;35;1mSQL (0.7ms)[0m   [0mSHOW TABLES[0m
+  [4;36;1mSQL (0.9ms)[0m   [0;1mSELECT version FROM schema_migrations[0m
+Migrating to CreateContactos (20091103155831)
+  [4;35;1mSQL (182.6ms)[0m   [0mCREATE TABLE `contactos` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `name` varchar(255), `telephone` varchar(255), `email` varchar(255), `company` varchar(255), `message` text, `created_at` datetime, `updated_at` datetime) ENGINE=InnoDB[0m
+  [4;36;1mSQL (87.0ms)[0m   [0;1mINSERT INTO schema_migrations (version) VALUES ('20091103155831')[0m
+  [4;35;1mSQL (0.8ms)[0m   [0mSHOW TABLES[0m
+  [4;36;1mSQL (0.6ms)[0m   [0;1mSELECT version FROM schema_migrations[0m
+  [4;35;1mSQL (0.6ms)[0m   [0mSHOW TABLES[0m
+  [4;36;1mSQL (253.0ms)[0m   [0;1mSHOW FIELDS FROM `contactos`[0m
+  [4;35;1mSQL (3.2ms)[0m   [0mdescribe `contactos`[0m
+  [4;36;1mSQL (3.1ms)[0m   [0;1mSHOW KEYS FROM `contactos`[0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ContactosController#show (for 127.0.0.1 at 2009-11-03 13:02:36) [GET]
+  Parameters: {"id"=>"index"}
+  [4;36;1mContacto Columns (1.8ms)[0m   [0;1mSHOW FIELDS FROM `contactos`[0m
+  [4;35;1mContacto Load (172.2ms)[0m   [0mSELECT * FROM `contactos` WHERE (`contactos`.`id` = 0) [0m
+
+ActiveRecord::RecordNotFound (Couldn't find Contacto with ID=index):
+  app/controllers/contactos_controller.rb:16:in `show'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+  -e:2:in `load'
+  -e:2
+
+Rendered rescues/_trace (705.5ms)
+Rendered rescues/_request_and_response (335.6ms)
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-11-03 13:02:43) [GET]
+
+ActionController::RoutingError (No route matches "/contacto/index" with {:method=>:get}):
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+  -e:2:in `load'
+  -e:2
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ContactosController#show (for 127.0.0.1 at 2009-11-03 13:02:47) [GET]
+  Parameters: {"id"=>"index"}
+  [4;36;1mContacto Columns (2.1ms)[0m   [0;1mSHOW FIELDS FROM `contactos`[0m
+  [4;35;1mContacto Load (0.3ms)[0m   [0mSELECT * FROM `contactos` WHERE (`contactos`.`id` = 0) [0m
+
+ActiveRecord::RecordNotFound (Couldn't find Contacto with ID=index):
+  app/controllers/contactos_controller.rb:16:in `show'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+  -e:2:in `load'
+  -e:2
+
+Rendered rescues/_trace (95.7ms)
+Rendered rescues/_request_and_response (1.4ms)
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ContactosController#show (for 127.0.0.1 at 2009-11-03 13:04:07) [GET]
+  Parameters: {"id"=>"index"}
+  [4;36;1mContacto Columns (1.8ms)[0m   [0;1mSHOW FIELDS FROM `contactos`[0m
+  [4;35;1mContacto Load (0.2ms)[0m   [0mSELECT * FROM `contactos` WHERE (`contactos`.`id` = 0) [0m
+
+ActiveRecord::RecordNotFound (Couldn't find Contacto with ID=index):
+  app/controllers/contactos_controller.rb:16:in `show'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+  -e:2:in `load'
+  -e:2
+
+Rendered rescues/_trace (285.1ms)
+Rendered rescues/_request_and_response (4.8ms)
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ContactosController#index (for 127.0.0.1 at 2009-11-03 13:04:11) [GET]
+  [4;36;1mContacto Load (0.8ms)[0m   [0;1mSELECT * FROM `contactos` [0m
+Rendering template within layouts/contactos
+Rendering contactos/index
+Completed in 202ms (View: 185, DB: 1) | 200 OK [http://localhost/contactos]
+  [4;35;1mSQL (0.2ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ContactosController#new (for 127.0.0.1 at 2009-11-03 13:04:14) [GET]
+  [4;35;1mContacto Columns (3.0ms)[0m   [0mSHOW FIELDS FROM `contactos`[0m
+Rendering template within layouts/contactos
+Rendering contactos/new
+Completed in 68ms (View: 45, DB: 3) | 200 OK [http://localhost/contactos/new]
+  [4;36;1mSQL (73.8ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (394.5ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ContactosController#new (for 127.0.0.1 at 2009-11-03 13:46:47) [GET]
+  [4;36;1mContacto Columns (168.4ms)[0m   [0;1mSHOW FIELDS FROM `contactos`[0m
+Rendering template within layouts/contactos
+Rendering contactos/new
+Completed in 319ms (View: 108, DB: 637) | 200 OK [http://localhost/contactos/new]
+  [4;35;1mSQL (0.3ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ContactosController#create (for 127.0.0.1 at 2009-11-03 13:47:21) [POST]
+  Parameters: {"commit"=>"Create", "authenticity_token"=>"JwfjMUQYiQvU8vxjEcAkLK1AFyFKbHR/MQJ+J2W6cmU=", "contacto"=>{"company"=>"hg", "name"=>"hg", "telephone"=>"hg", "message"=>"hgh", "email"=>"hg"}}
+  [4;35;1mContacto Columns (1.8ms)[0m   [0mSHOW FIELDS FROM `contactos`[0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mContacto Create (151.5ms)[0m   [0mINSERT INTO `contactos` (`name`, `company`, `created_at`, `updated_at`, `telephone`, `message`, `email`) VALUES('hg', 'hg', '2009-11-03 16:47:21', '2009-11-03 16:47:21', 'hg', 'hgh', 'hg')[0m
+  [4;36;1mSQL (281.7ms)[0m   [0;1mCOMMIT[0m
+Redirected to http://localhost:3003/contactos/1
+Completed in 595ms (DB: 436) | 302 Found [http://localhost/contactos]
+  [4;35;1mSQL (0.2ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ContactosController#show (for 127.0.0.1 at 2009-11-03 13:47:22) [GET]
+  Parameters: {"id"=>"1"}
+
+Errno::ENOENT (No such file or directory - /home/jhass/Aptana Studio Workspace/wibo/app/views/contactos/show.html.erb):
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+  -e:2:in `load'
+  -e:2
+
+Rendered rescues/_trace (149.0ms)
+Rendered rescues/_request_and_response (1.0ms)
+Rendering rescues/layout (internal_server_error)
+  [4;35;1mSQL (0.2ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ContactosController#create (for 127.0.0.1 at 2009-11-03 14:20:34) [POST]
+  Parameters: {"commit"=>"Create", "authenticity_token"=>"JwfjMUQYiQvU8vxjEcAkLK1AFyFKbHR/MQJ+J2W6cmU=", "contacto"=>{"company"=>"hg", "name"=>"hg", "telephone"=>"hg", "message"=>"hgh", "email"=>"hg"}}
+  [4;35;1mContacto Columns (30.2ms)[0m   [0mSHOW FIELDS FROM `contactos`[0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mContacto Create (0.7ms)[0m   [0mINSERT INTO `contactos` (`name`, `company`, `created_at`, `updated_at`, `telephone`, `message`, `email`) VALUES('hg', 'hg', '2009-11-03 17:20:34', '2009-11-03 17:20:34', 'hg', 'hgh', 'hg')[0m
+  [4;36;1mSQL (79.6ms)[0m   [0;1mCOMMIT[0m
+Redirected to http://localhost:3003/contactos/2
+Completed in 145ms (DB: 111) | 302 Found [http://localhost/contactos]
+  [4;35;1mSQL (0.2ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ContactosController#show (for 127.0.0.1 at 2009-11-03 14:20:35) [GET]
+  Parameters: {"id"=>"2"}
+
+Errno::ENOENT (No such file or directory - /home/jhass/Aptana Studio Workspace/wibo/app/views/contactos/show.html.erb):
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+  -e:2:in `load'
+  -e:2
+
+Rendered rescues/_trace (308.0ms)
+Rendered rescues/_request_and_response (1.3ms)
+Rendering rescues/layout (internal_server_error)
+  [4;35;1mSQL (0.2ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ContactosController#create (for 127.0.0.1 at 2009-11-03 14:23:31) [POST]
+  Parameters: {"commit"=>"Create", "authenticity_token"=>"JwfjMUQYiQvU8vxjEcAkLK1AFyFKbHR/MQJ+J2W6cmU=", "contacto"=>{"company"=>"hg", "name"=>"hg", "telephone"=>"hg", "message"=>"hgh", "email"=>"hg"}}
+  [4;35;1mContacto Columns (2.0ms)[0m   [0mSHOW FIELDS FROM `contactos`[0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mContacto Create (0.6ms)[0m   [0mINSERT INTO `contactos` (`name`, `company`, `created_at`, `updated_at`, `telephone`, `message`, `email`) VALUES('hg', 'hg', '2009-11-03 17:23:31', '2009-11-03 17:23:31', 'hg', 'hgh', 'hg')[0m
+  [4;36;1mSQL (52.6ms)[0m   [0;1mCOMMIT[0m
+Redirected to http://localhost:3003/contactos/3
+Completed in 91ms (DB: 56) | 302 Found [http://localhost/contactos]
+  [4;35;1mSQL (0.2ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ContactosController#show (for 127.0.0.1 at 2009-11-03 14:23:32) [GET]
+  Parameters: {"id"=>"3"}
+
+Errno::ENOENT (No such file or directory - /home/jhass/Aptana Studio Workspace/wibo/app/views/contactos/show.html.erb):
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+  -e:2:in `load'
+  -e:2
+
+Rendered rescues/_trace (118.7ms)
+Rendered rescues/_request_and_response (2.7ms)
+Rendering rescues/layout (internal_server_error)
+  [4;35;1mSQL (0.3ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ContactosController#create (for 127.0.0.1 at 2009-11-03 14:28:52) [POST]
+  Parameters: {"commit"=>"Create", "authenticity_token"=>"JwfjMUQYiQvU8vxjEcAkLK1AFyFKbHR/MQJ+J2W6cmU=", "contacto"=>{"company"=>"hg", "name"=>"hg", "telephone"=>"hg", "message"=>"hgh", "email"=>"hg"}}
+  [4;35;1mContacto Columns (59.5ms)[0m   [0mSHOW FIELDS FROM `contactos`[0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mContacto Create (30.6ms)[0m   [0mINSERT INTO `contactos` (`name`, `company`, `created_at`, `updated_at`, `telephone`, `message`, `email`) VALUES('hg', 'hg', '2009-11-03 17:28:53', '2009-11-03 17:28:53', 'hg', 'hgh', 'hg')[0m
+  [4;36;1mSQL (52.3ms)[0m   [0;1mCOMMIT[0m
+Redirected to http://localhost:3003/contactos/4
+Completed in 400ms (DB: 143) | 302 Found [http://localhost/contactos]
+  [4;35;1mSQL (0.2ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ContactosController#show (for 127.0.0.1 at 2009-11-03 14:28:53) [GET]
+  Parameters: {"id"=>"4"}
+
+Errno::ENOENT (No such file or directory - /home/jhass/Aptana Studio Workspace/wibo/app/views/contactos/show.html.erb):
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+  -e:2:in `load'
+  -e:2
+
+Rendered rescues/_trace (135.9ms)
+Rendered rescues/_request_and_response (1.0ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (18.8ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (134.8ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (3.2ms)[0m   [0mSHOW TABLES[0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSELECT version FROM schema_migrations[0m
+  [4;35;1mSQL (0.9ms)[0m   [0mSHOW TABLES[0m
+  [4;36;1mSQL (2.0ms)[0m   [0;1mSHOW FIELDS FROM `contactos`[0m
+  [4;35;1mSQL (23.4ms)[0m   [0mdescribe `contactos`[0m
+  [4;36;1mSQL (61.7ms)[0m   [0;1mSHOW KEYS FROM `contactos`[0m

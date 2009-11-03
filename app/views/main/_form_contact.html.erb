@@ -1,27 +1,4 @@
-<% form_for(@contactos) do |f| %>
-  
-
-  <p>
-    <%= f.label :name %><br />
-    <%= f.text_field :name %>
-  </p>
-  <p>
-    <%= f.label :telephone %><br />
-    <%= f.text_field :telephone %>
-  </p>
-  <p>
-    <%= f.label :email %><br />
-    <%= f.text_field :email %>
-  </p>
-    <p>
-    <%= f.label :company %><br />
-    <%= f.text_field :company %>
-  </p>
-  <p>
-    <%= f.label :message %><br />
-    <%= f.text_area :message %>
-  </p>
-  <p>
-    <%= f.submit 'Create' %>
-  </p>
-<% end %>
+<p><label >First name</label><br/>
+<%= text_field 'contacto', 'name' %></p>
+<p><label >Last name</label><br/>
+<%= text_field 'contacto', 'telephone' %></p>
