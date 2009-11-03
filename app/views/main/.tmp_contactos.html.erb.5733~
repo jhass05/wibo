@@ -1,0 +1,21 @@
+<h2>contactanos</h2>
+   <div>Oficinas en Bolivia </div>
+   <div>Av. Ayacucho nro. 465<br />
+        Edificio Rosario, <br />
+		Oficina nro. 210, <br />
+        Cochabamba</div>
+   <div>Telefono: (591)(4) 4527593 <br />
+        Email: contactos@wibo.com.bo</div>
+  
+   <div>Oficinas en Alemania </div>
+   <div>3003 Summit Blvd.,<br />
+        Suite 1500, <br />							             
+   </div>
+   <div>Telefono: (434)(44) 434527593 <br /></div>
+ 
+ 
+  <%= render :partial => 'form_contact' %>
+ 
+
+ 
+ 

@@ -7643,3 +7643,115 @@ ActionView::TemplateError (Missing template main/_form.erb in view path app/view
 Rendered rescues/_trace (111.4ms)
 Rendered rescues/_request_and_response (2.0ms)
 Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (123.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.4ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MainController#index (for 127.0.0.1 at 2009-11-03 11:07:24) [GET]
+Rendering template within layouts/main
+Rendering main/index
+Completed in 200ms (View: 193, DB: 124) | 200 OK [http://localhost/main/index]
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.4ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MainController#images to gif (for 127.0.0.1 at 2009-11-03 11:07:24) [GET]
+  Parameters: {"id"=>"blank"}
+
+ActionController::UnknownAction (No action responded to images. Actions: clientes, contactos, empresa, hosting, index, noticias, proyectos, and servicios):
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+  -e:2:in `load'
+  -e:2
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MainController#proyectos (for 127.0.0.1 at 2009-11-03 11:07:27) [GET]
+Rendering template within layouts/main
+Rendering main/proyectos
+Completed in 117ms (View: 111, DB: 0) | 200 OK [http://localhost/main/proyectos]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MainController#contactos (for 127.0.0.1 at 2009-11-03 11:07:30) [GET]
+  [4;36;1mContacto Columns (264.3ms)[0m   [0;1mSHOW FIELDS FROM `contactos`[0m
+Rendering template within layouts/main
+Rendering main/contactos
+
+ActionView::TemplateError (undefined method `contactos_path' for #<ActionView::Base:0x7f5808cea240>) on line #1 of app/views/main/_form_contact.html.erb:
+1: <% form_for(@contacto) do |f| %>
+2:   <%= f.error_messages %>
+3: 
+4:   <p>
+
+    app/views/main/_form_contact.html.erb:1
+    app/views/main/contactos.html.erb:17
+    /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+    -e:2:in `load'
+    -e:2
+
+Rendered rescues/_trace (439.6ms)
+Rendered rescues/_request_and_response (5.4ms)
+Rendering rescues/layout (internal_server_error)
+  [4;35;1mSQL (0.2ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MainController#proyectos (for 127.0.0.1 at 2009-11-03 11:08:02) [GET]
+Rendering template within layouts/main
+Rendering main/proyectos
+Completed in 18ms (View: 12, DB: 0) | 200 OK [http://localhost/main/proyectos]
+  [4;35;1mSQL (0.2ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MainController#contactos (for 127.0.0.1 at 2009-11-03 11:08:04) [GET]
+  [4;35;1mContacto Columns (41.7ms)[0m   [0mSHOW FIELDS FROM `contactos`[0m
+Rendering template within layouts/main
+Rendering main/contactos
+
+ActionView::TemplateError (undefined method `contactos_path' for #<ActionView::Base:0x7f58067283b8>) on line #1 of app/views/main/_form_contact.html.erb:
+1: <% form_for(@contacto) do |f| %>
+2:   
+3: 
+4:   <p>
+
+    app/views/main/_form_contact.html.erb:1
+    app/views/main/contactos.html.erb:17
+    /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+    -e:2:in `load'
+    -e:2
+
+Rendered rescues/_trace (405.0ms)
+Rendered rescues/_request_and_response (0.9ms)
+Rendering rescues/layout (internal_server_error)

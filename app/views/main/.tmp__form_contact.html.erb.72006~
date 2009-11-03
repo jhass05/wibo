@@ -1,5 +1,5 @@
-<% form_for(@contactos) do |f| %>
-  
+<% form_for(@contacto) do |f| %>
+  <%= f.error_messages %>
 
   <p>
     <%= f.label :name %><br />
