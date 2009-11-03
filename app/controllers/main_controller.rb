@@ -1,6 +1,6 @@
 class MainController < ApplicationController
   
-  layout 'main' 
+
   
   def index
     
@@ -21,5 +21,7 @@ class MainController < ApplicationController
   def contactos
     
   end
+  
+  
   
 end

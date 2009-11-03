@@ -12,11 +12,11 @@
 <body>
 <div id="topPanel">
 <ul>
-<li class="active"><%= link_to 'Contactos', {:action => "contactos"}%></li>
-<li class="active"><%= link_to 'Clientes', {:action => "clientes"}%></li>
-<li class="active"><%= link_to 'Noticias', {:action => "noticias"}%></li>
-<li class="active"><%= link_to 'Empresa', {:action => "empresa"} %></li>
-<li class="active"><%= link_to 'Inicio', {:action => "index"}%></>Inicio</li>
+<li><%= link_to 'Contactos', {:action => "contactos"}%></li>
+<li><%= link_to 'Clientes', {:action => "clientes"}%></li>
+<li><%= link_to 'Noticias', {:action => "noticias"}%></li>
+<li><%= link_to 'Empresa', {:action => "empresa"} %></li>
+<li class="active">Inicio</li>
 </ul>
 <a href="index.html"><%= image_tag "logo_wibo.JPG", :border=> "0" %></a>
 <div id="headerPanelfast">
@@ -51,8 +51,7 @@
   <li><a href="#">Clientes </a> | </li>
   <li><a href="#">Contactos </a> </li>
   </ul>
-  <p class="copyright">© Wibo sudando software.</p></br>
-  <p class="copyright">2009</p>
+  <p class="copyright">© Wibo sudando software.</p>
    <div id="footerhtmlPanel"><a href="http://validator.w3.org/check?uri=referer" target="_blank">html</a></div>
    <div id="footercssPanel"><a href="http://jigsaw.w3.org/css-validator/check/referer" target="_blank">css</a></div>
   </div>
