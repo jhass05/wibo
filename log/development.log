@@ -4731,3 +4731,1240 @@ Migrating to CreateContactos (20091031150546)
   [4;35;1mSQL (71.4ms)[0m   [0mSHOW FIELDS FROM `contactos`[0m
   [4;36;1mSQL (2.8ms)[0m   [0;1mdescribe `contactos`[0m
   [4;35;1mSQL (33.8ms)[0m   [0mSHOW KEYS FROM `contactos`[0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MainController#index (for 127.0.0.1 at 2009-11-03 17:55:03) [GET]
+Rendering template within layouts/main
+Rendering main/index
+Completed in 508ms (View: 501, DB: 1) | 200 OK [http://localhost/main/index]
+  [4;36;1mSQL (0.5ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.4ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MainController#images to gif (for 127.0.0.1 at 2009-11-03 17:55:04) [GET]
+  Parameters: {"id"=>"blank"}
+
+ActionController::UnknownAction (No action responded to images. Actions: clientes, contactos, empresa, index, and noticias):
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+  -e:2:in `load'
+  -e:2
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MainController#contactos (for 127.0.0.1 at 2009-11-03 17:55:10) [GET]
+  [4;36;1mContacto Columns (1643.9ms)[0m   [0;1mSHOW FIELDS FROM `contactos`[0m
+Rendering template within layouts/main
+Rendering main/contactos
+Rendered main/_form_contact (1.5ms)
+Completed in 1721ms (View: 38, DB: 1644) | 200 OK [http://localhost/main/contactos]
+  [4;35;1mSQL (437.5ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (730.9ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MainController#contactos (for 127.0.0.1 at 2009-11-03 17:18:32) [GET]
+  [4;35;1mContacto Columns (908.2ms)[0m   [0mSHOW FIELDS FROM `contactos`[0m
+Rendering template within layouts/main
+Rendering main/contactos
+Rendered main/_form_contact (0.5ms)
+Completed in 2381ms (View: 730, DB: 2077) | 200 OK [http://localhost/main/contactos]
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MainController#contactos (for 127.0.0.1 at 2009-11-03 17:18:45) [GET]
+  [4;36;1mContacto Columns (16.6ms)[0m   [0;1mSHOW FIELDS FROM `contactos`[0m
+Rendering template within layouts/main
+Rendering main/contactos
+Rendered main/_form_contact (0.3ms)
+Completed in 58ms (View: 14, DB: 17) | 200 OK [http://localhost/main/contactos]
+  [4;36;1mSQL (252.4ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (42.6ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MainController#contactos (for 127.0.0.1 at 2009-11-03 17:27:12) [GET]
+  [4;36;1mContacto Columns (172.5ms)[0m   [0;1mSHOW FIELDS FROM `contactos`[0m
+Rendering template within layouts/main
+Rendering main/contactos
+
+ActionView::TemplateError (undefined method `contactos_path' for #<ActionView::Base:0x7f6bb78b95a0>) on line #3 of app/views/main/_form_contact.html.erb:
+1: <h1>New product</h1>
+2: 
+3: <% form_for(@contacto) do |f| %>
+4:   <%= f.error_messages %>
+5: 
+6:   <p>Nombre: <br />
+
+    app/views/main/_form_contact.html.erb:3
+    app/views/main/contactos.html.erb:17
+    /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+    -e:2:in `load'
+    -e:2
+
+Rendered rescues/_trace (186.3ms)
+Rendered rescues/_request_and_response (4.8ms)
+Rendering rescues/layout (internal_server_error)
+  [4;35;1mSQL (0.3ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MainController#index (for 127.0.0.1 at 2009-11-03 17:27:24) [GET]
+Rendering template within layouts/main
+Rendering main/index
+Completed in 143ms (View: 134, DB: 1) | 200 OK [http://localhost/main]
+  [4;35;1mSQL (13.9ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MainController#contactos (for 127.0.0.1 at 2009-11-03 17:27:28) [GET]
+  [4;35;1mContacto Columns (53.2ms)[0m   [0mSHOW FIELDS FROM `contactos`[0m
+Rendering template within layouts/main
+Rendering main/contactos
+
+ActionView::TemplateError (undefined method `contactos_path' for #<ActionView::Base:0x7f6bb66c6cf8>) on line #3 of app/views/main/_form_contact.html.erb:
+1: <h1>New product</h1>
+2: 
+3: <% form_for(@contacto) do |f| %>
+4:   <%= f.error_messages %>
+5: 
+6:   <p>Nombre: <br />
+
+    app/views/main/_form_contact.html.erb:3
+    app/views/main/contactos.html.erb:17
+    /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+    -e:2:in `load'
+    -e:2
+
+Rendered rescues/_trace (212.9ms)
+Rendered rescues/_request_and_response (0.9ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MainController#contactos (for 127.0.0.1 at 2009-11-03 17:30:43) [GET]
+  [4;36;1mContacto Columns (2.6ms)[0m   [0;1mSHOW FIELDS FROM `contactos`[0m
+Rendering template within layouts/main
+Rendering main/contactos
+
+ActionView::TemplateError (undefined method `contactos_path' for #<ActionView::Base:0x7f6bb8239080>) on line #3 of app/views/main/_form_contact.html.erb:
+1: <h1>New product</h1>
+2: 
+3: <% form_for(@contacto) do |f| %>
+4:  <!-- <%= f.error_messages %> -->
+5: 
+6:   <p>Nombre: <br />
+
+    app/views/main/_form_contact.html.erb:3
+    app/views/main/contactos.html.erb:17
+    /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+    -e:2:in `load'
+    -e:2
+
+Rendered rescues/_trace (166.4ms)
+Rendered rescues/_request_and_response (1.0ms)
+Rendering rescues/layout (internal_server_error)
+  [4;35;1mSQL (0.3ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MainController#contactos (for 127.0.0.1 at 2009-11-03 17:30:46) [GET]
+  [4;35;1mContacto Columns (30.2ms)[0m   [0mSHOW FIELDS FROM `contactos`[0m
+Rendering template within layouts/main
+Rendering main/contactos
+
+ActionView::TemplateError (undefined method `contactos_path' for #<ActionView::Base:0x7f6bb7922910>) on line #3 of app/views/main/_form_contact.html.erb:
+1: <h1>New product</h1>
+2: 
+3: <% form_for(@contacto) do |f| %>
+4:  <!-- <%= f.error_messages %> -->
+5: 
+6:   <p>Nombre: <br />
+
+    app/views/main/_form_contact.html.erb:3
+    app/views/main/contactos.html.erb:17
+    /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+    -e:2:in `load'
+    -e:2
+
+Rendered rescues/_trace (244.8ms)
+Rendered rescues/_request_and_response (1.0ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (62.7ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (25.4ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MainController#contactos (for 127.0.0.1 at 2009-11-03 17:51:46) [GET]
+  [4;36;1mContacto Columns (329.9ms)[0m   [0;1mSHOW FIELDS FROM `contactos`[0m
+Rendering template within layouts/main
+Rendering main/contactos
+
+ActionView::TemplateError (undefined method `contactos_path' for #<ActionView::Base:0x7f6bb6216758>) on line #3 of app/views/main/_form_contact.html.erb:
+1: <h1>New product</h1>
+2: 
+3: <% form_for(@contacto) do |f| %>
+4:  <!-- <%= f.error_messages %> -->
+5: 
+6:   <p>Nombre: <br />
+
+    app/views/main/_form_contact.html.erb:3
+    app/views/main/contactos.html.erb:17
+    /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+    -e:2:in `load'
+    -e:2
+
+Rendered rescues/_trace (672.0ms)
+Rendered rescues/_request_and_response (1.3ms)
+Rendering rescues/layout (internal_server_error)
+  [4;35;1mSQL (243.7ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (55.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MainController#contactos (for 127.0.0.1 at 2009-11-03 18:08:46) [GET]
+  [4;35;1mContacto Columns (472.9ms)[0m   [0mSHOW FIELDS FROM `contactos`[0m
+Rendering template within layouts/main
+Rendering main/contactos
+
+ActionView::TemplateError (undefined method `contactos_path' for #<ActionView::Base:0x7f6bb6418cb8>) on line #19 of app/views/main/contactos.html.erb:
+16:  
+17: <h1>New product</h1>
+18: 
+19: <% form_for(@contacto) do |f| %>
+20:  <!-- <%= f.error_messages %> -->
+21: 
+22:   <p>Nombre: <br />
+
+    app/views/main/contactos.html.erb:19
+    /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+    -e:2:in `load'
+    -e:2
+
+Rendered rescues/_trace (593.2ms)
+Rendered rescues/_request_and_response (27.2ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MainController#proyectos (for 127.0.0.1 at 2009-11-03 18:08:54) [GET]
+
+ActionController::UnknownAction (No action responded to proyectos. Actions: clientes, contactos, empresa, index, and noticias):
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+  -e:2:in `load'
+  -e:2
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (52.6ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (33.6ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ContactosController#index (for 127.0.0.1 at 2009-11-04 08:21:12) [GET]
+
+ActionController::UnknownAction (No action responded to index. Actions: create and new):
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+  -e:2:in `load'
+  -e:2
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ContactosController#index (for 127.0.0.1 at 2009-11-04 08:21:15) [GET]
+
+ActionController::UnknownAction (No action responded to index. Actions: create and new):
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+  -e:2:in `load'
+  -e:2
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ContactosController#new (for 127.0.0.1 at 2009-11-04 08:21:26) [GET]
+  [4;36;1mContacto Columns (462.8ms)[0m   [0;1mSHOW FIELDS FROM `contactos`[0m
+Rendering contactos/new
+
+ActionView::TemplateError (undefined method `contactos_path' for #<ActionView::Base:0x7fd6082de278>) on line #19 of app/views/contactos/new.html.erb:
+16:  
+17: <h1>New product</h1>
+18: 
+19: <% form_for(@contacto) do |f| %>
+20:  <!-- <%= f.error_messages %> -->
+21: 
+22:   <p>Nombre: <br />
+
+    app/views/contactos/new.html.erb:19
+    /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+    -e:2:in `load'
+    -e:2
+
+Rendered rescues/_trace (130.0ms)
+Rendered rescues/_request_and_response (4.8ms)
+Rendering rescues/layout (internal_server_error)
+  [4;35;1mSQL (0.2ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ContactosController#new (for 127.0.0.1 at 2009-11-04 08:24:07) [GET]
+  [4;35;1mContacto Columns (30.5ms)[0m   [0mSHOW FIELDS FROM `contactos`[0m
+Rendering contactos/new
+
+ActionView::TemplateError (undefined method `contactos_path' for #<ActionView::Base:0x7fd609325438>) on line #19 of app/views/contactos/new.html.erb:
+16:  
+17: <h1>New product</h1>
+18: 
+19: <% form_for(@contacto) do |f| %>
+20:  <!-- <%= f.error_messages %> -->
+21: 
+22:   <p>Nombre: <br />
+
+    app/views/contactos/new.html.erb:19
+    /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+    -e:2:in `load'
+    -e:2
+
+Rendered rescues/_trace (124.8ms)
+Rendered rescues/_request_and_response (0.9ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ContactosController#new (for 127.0.0.1 at 2009-11-04 08:24:10) [GET]
+  [4;36;1mContacto Columns (2.6ms)[0m   [0;1mSHOW FIELDS FROM `contactos`[0m
+Rendering contactos/new
+
+ActionView::TemplateError (undefined method `contactos_path' for #<ActionView::Base:0x7fd607e8d480>) on line #19 of app/views/contactos/new.html.erb:
+16:  
+17: <h1>New product</h1>
+18: 
+19: <% form_for(@contacto) do |f| %>
+20:  <!-- <%= f.error_messages %> -->
+21: 
+22:   <p>Nombre: <br />
+
+    app/views/contactos/new.html.erb:19
+    /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+    -e:2:in `load'
+    -e:2
+
+Rendered rescues/_trace (292.0ms)
+Rendered rescues/_request_and_response (0.9ms)
+Rendering rescues/layout (internal_server_error)
+  [4;35;1mSQL (0.3ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ContactosController#new (for 127.0.0.1 at 2009-11-04 08:24:35) [GET]
+  [4;35;1mContacto Columns (2.2ms)[0m   [0mSHOW FIELDS FROM `contactos`[0m
+Rendering contactos/new
+
+ActionView::TemplateError (undefined method `contactos_path' for #<ActionView::Base:0x7fd608249448>) on line #19 of app/views/contactos/new.html.erb:
+16:  
+17: <h1>New product</h1>
+18: 
+19: <% form_for(@contacto) do |f| %>
+20:  <!-- <%= f.error_messages %> -->
+21: 
+22:   <p>Nombre: <br />
+
+    app/views/contactos/new.html.erb:19
+    /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+    -e:2:in `load'
+    -e:2
+
+Rendered rescues/_trace (133.9ms)
+Rendered rescues/_request_and_response (0.9ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ContactosController#new (for 127.0.0.1 at 2009-11-04 08:24:37) [GET]
+  [4;36;1mContacto Columns (2.1ms)[0m   [0;1mSHOW FIELDS FROM `contactos`[0m
+Rendering contactos/new
+
+ActionView::TemplateError (undefined method `contactos_path' for #<ActionView::Base:0x7fd6092a4630>) on line #19 of app/views/contactos/new.html.erb:
+16:  
+17: <h1>New product</h1>
+18: 
+19: <% form_for(@contacto) do |f| %>
+20:  <!-- <%= f.error_messages %> -->
+21: 
+22:   <p>Nombre: <br />
+
+    app/views/contactos/new.html.erb:19
+    /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+    -e:2:in `load'
+    -e:2
+
+Rendered rescues/_trace (129.8ms)
+Rendered rescues/_request_and_response (0.9ms)
+Rendering rescues/layout (internal_server_error)
+  [4;35;1mSQL (0.2ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ContactosController#new (for 127.0.0.1 at 2009-11-04 08:24:38) [GET]
+  [4;35;1mContacto Columns (2.4ms)[0m   [0mSHOW FIELDS FROM `contactos`[0m
+Rendering contactos/new
+
+ActionView::TemplateError (undefined method `contactos_path' for #<ActionView::Base:0x7fd607e72b80>) on line #19 of app/views/contactos/new.html.erb:
+16:  
+17: <h1>New product</h1>
+18: 
+19: <% form_for(@contacto) do |f| %>
+20:  <!-- <%= f.error_messages %> -->
+21: 
+22:   <p>Nombre: <br />
+
+    app/views/contactos/new.html.erb:19
+    /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+    -e:2:in `load'
+    -e:2
+
+Rendered rescues/_trace (296.2ms)
+Rendered rescues/_request_and_response (1.1ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ContactosController#new (for 127.0.0.1 at 2009-11-04 08:24:39) [GET]
+  [4;36;1mContacto Columns (5.6ms)[0m   [0;1mSHOW FIELDS FROM `contactos`[0m
+Rendering contactos/new
+
+ActionView::TemplateError (undefined method `contactos_path' for #<ActionView::Base:0x7fd60825b8c8>) on line #19 of app/views/contactos/new.html.erb:
+16:  
+17: <h1>New product</h1>
+18: 
+19: <% form_for(@contacto) do |f| %>
+20:  <!-- <%= f.error_messages %> -->
+21: 
+22:   <p>Nombre: <br />
+
+    app/views/contactos/new.html.erb:19
+    /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+    -e:2:in `load'
+    -e:2
+
+Rendered rescues/_trace (184.9ms)
+Rendered rescues/_request_and_response (0.9ms)
+Rendering rescues/layout (internal_server_error)
+  [4;35;1mSQL (0.3ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (2.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ContactosController#new (for 127.0.0.1 at 2009-11-04 08:24:39) [GET]
+  [4;35;1mContacto Columns (2.4ms)[0m   [0mSHOW FIELDS FROM `contactos`[0m
+Rendering contactos/new
+
+ActionView::TemplateError (undefined method `contactos_path' for #<ActionView::Base:0x7fd6093256b8>) on line #19 of app/views/contactos/new.html.erb:
+16:  
+17: <h1>New product</h1>
+18: 
+19: <% form_for(@contacto) do |f| %>
+20:  <!-- <%= f.error_messages %> -->
+21: 
+22:   <p>Nombre: <br />
+
+    app/views/contactos/new.html.erb:19
+    /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+    -e:2:in `load'
+    -e:2
+
+Rendered rescues/_trace (121.0ms)
+Rendered rescues/_request_and_response (1.0ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.4ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ContactosController#new (for 127.0.0.1 at 2009-11-04 08:24:39) [GET]
+  [4;36;1mContacto Columns (2.2ms)[0m   [0;1mSHOW FIELDS FROM `contactos`[0m
+Rendering contactos/new
+
+ActionView::TemplateError (undefined method `contactos_path' for #<ActionView::Base:0x7fd607eab7c8>) on line #19 of app/views/contactos/new.html.erb:
+16:  
+17: <h1>New product</h1>
+18: 
+19: <% form_for(@contacto) do |f| %>
+20:  <!-- <%= f.error_messages %> -->
+21: 
+22:   <p>Nombre: <br />
+
+    app/views/contactos/new.html.erb:19
+    /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+    -e:2:in `load'
+    -e:2
+
+Rendered rescues/_trace (122.1ms)
+Rendered rescues/_request_and_response (0.4ms)
+Rendering rescues/layout (internal_server_error)
+  [4;35;1mSQL (69.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (22.4ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ContactosController#new (for 127.0.0.1 at 2009-11-04 08:28:54) [GET]
+  [4;35;1mContacto Columns (161.0ms)[0m   [0mSHOW FIELDS FROM `contactos`[0m
+Rendering contactos/new
+
+ActionView::TemplateError (undefined method `contactos_path' for #<ActionView::Base:0x7fd6082a7fc0>) on line #19 of app/views/contactos/new.html.erb:
+16:  
+17: <h1>New product</h1>
+18: 
+19: <% form_for(@contacto) do |f| %>
+20:  <!-- <%= f.error_messages %> -->
+21: 
+22:   <p>Nombre: <br />
+
+    app/views/contactos/new.html.erb:19
+    /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+    -e:2:in `load'
+    -e:2
+
+Rendered rescues/_trace (129.4ms)
+Rendered rescues/_request_and_response (24.3ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ContactosController#new (for 127.0.0.1 at 2009-11-04 08:29:42) [GET]
+  [4;36;1mContacto Columns (2.2ms)[0m   [0;1mSHOW FIELDS FROM `contactos`[0m
+Rendering contactos/new
+Completed in 43ms (View: 23, DB: 3) | 200 OK [http://localhost/contactos/new]
+  [4;35;1mSQL (0.3ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ContactosController#new (for 127.0.0.1 at 2009-11-04 08:32:05) [GET]
+  [4;35;1mContacto Columns (38.5ms)[0m   [0mSHOW FIELDS FROM `contactos`[0m
+Rendering contactos/new
+Completed in 551ms (View: 483, DB: 39) | 200 OK [http://localhost/contactos/new]
+  [4;36;1mSQL (0.4ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.7ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ContactosController#new (for 127.0.0.1 at 2009-11-04 08:42:19) [GET]
+  [4;36;1mContacto Columns (2.3ms)[0m   [0;1mSHOW FIELDS FROM `contactos`[0m
+Rendering contactos/new
+Completed in 270ms (View: 209, DB: 3) | 200 OK [http://localhost/contactos/new]
+  [4;35;1mSQL (0.2ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ContactosController#new (for 127.0.0.1 at 2009-11-04 08:42:19) [GET]
+  [4;35;1mContacto Columns (2.3ms)[0m   [0mSHOW FIELDS FROM `contactos`[0m
+Rendering contactos/new
+Completed in 58ms (View: 33, DB: 3) | 200 OK [http://localhost/contactos/new]
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ContactosController#new (for 127.0.0.1 at 2009-11-04 08:46:06) [GET]
+  [4;36;1mContacto Columns (2.2ms)[0m   [0;1mSHOW FIELDS FROM `contactos`[0m
+Rendering contactos/new
+Completed in 66ms (View: 44, DB: 3) | 200 OK [http://localhost/contactos/new]
+  [4;35;1mSQL (0.3ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ContactosController#create (for 127.0.0.1 at 2009-11-04 08:46:10) [POST]
+  Parameters: {"commit"=>"enviar", "authenticity_token"=>"JwfjMUQYiQvU8vxjEcAkLK1AFyFKbHR/MQJ+J2W6cmU=", "contacto"=>{"company"=>"", "name"=>"", "telephone"=>"", "message"=>"", "email"=>""}}
+Redirected to http://localhost:3003/contactos/new
+Completed in 10ms (DB: 0) | 302 Found [http://localhost/contactos/create]
+  [4;35;1mSQL (0.2ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ContactosController#new (for 127.0.0.1 at 2009-11-04 08:46:10) [GET]
+  [4;35;1mContacto Columns (2.2ms)[0m   [0mSHOW FIELDS FROM `contactos`[0m
+Rendering contactos/new
+Completed in 61ms (View: 27, DB: 3) | 200 OK [http://localhost/contactos/new]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ContactosController#create (for 127.0.0.1 at 2009-11-04 08:46:20) [POST]
+  Parameters: {"commit"=>"enviar", "authenticity_token"=>"JwfjMUQYiQvU8vxjEcAkLK1AFyFKbHR/MQJ+J2W6cmU=", "contacto"=>{"company"=>"hfgg", "name"=>"hgf", "telephone"=>"hfh", "message"=>"hfgfghf", "email"=>"fgf"}}
+Redirected to http://localhost:3003/contactos/new
+Completed in 10ms (DB: 0) | 302 Found [http://localhost/contactos/create]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ContactosController#new (for 127.0.0.1 at 2009-11-04 08:46:21) [GET]
+  [4;36;1mContacto Columns (3.6ms)[0m   [0;1mSHOW FIELDS FROM `contactos`[0m
+Rendering contactos/new
+Completed in 67ms (View: 29, DB: 4) | 200 OK [http://localhost/contactos/new]
+  [4;35;1mSQL (0.2ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (2.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MainController#index (for 127.0.0.1 at 2009-11-04 08:56:05) [GET]
+Rendering template within layouts/main
+Rendering main/index
+Completed in 207ms (View: 199, DB: 2) | 200 OK [http://localhost/main]
+  [4;35;1mSQL (0.3ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ContactosController#new (for 127.0.0.1 at 2009-11-04 08:56:09) [GET]
+  [4;35;1mContacto Columns (62.8ms)[0m   [0mSHOW FIELDS FROM `contactos`[0m
+Rendering contactos/new
+Completed in 127ms (View: 44, DB: 63) | 200 OK [http://localhost/contactos/new]
+  [4;36;1mSQL (0.4ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ContactosController#new (for 127.0.0.1 at 2009-11-04 08:57:54) [GET]
+  [4;36;1mContacto Columns (2.2ms)[0m   [0;1mSHOW FIELDS FROM `contactos`[0m
+Rendering template within layouts/main
+Rendering contactos/new
+Completed in 82ms (View: 44, DB: 3) | 200 OK [http://localhost/contactos/new]
+  [4;35;1mSQL (156.4ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (22.6ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ContactosController#new (for 127.0.0.1 at 2009-11-04 09:02:40) [GET]
+  [4;35;1mContacto Columns (781.7ms)[0m   [0mSHOW FIELDS FROM `contactos`[0m
+Rendering template within layouts/main
+Rendering contactos/new
+Completed in 1080ms (View: 194, DB: 961) | 200 OK [http://localhost/contactos/new]
+
+
+Processing ContactosController#new (for 127.0.0.1 at 2009-11-04 09:04:05) [GET]
+Rendering template within layouts/main
+Rendering contactos/new
+Completed in 32ms (View: 30, DB: 0) | 200 OK [http://localhost/contactos/new]
+
+
+Processing ContactosController#new (for 127.0.0.1 at 2009-11-04 09:04:07) [GET]
+Rendering template within layouts/main
+Rendering contactos/new
+Completed in 39ms (View: 37, DB: 0) | 200 OK [http://localhost/contactos/new]
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ContactosController#new (for 127.0.0.1 at 2009-11-04 09:04:42) [GET]
+  [4;36;1mContacto Columns (37.4ms)[0m   [0;1mSHOW FIELDS FROM `contactos`[0m
+Rendering template within layouts/main
+Rendering contactos/new
+Completed in 421ms (View: 329, DB: 38) | 200 OK [http://localhost/contactos/new]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (1.5ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ContactosController#new (for 127.0.0.1 at 2009-11-04 09:04:43) [GET]
+  [4;35;1mContacto Columns (24.0ms)[0m   [0mSHOW FIELDS FROM `contactos`[0m
+Rendering template within layouts/main
+Rendering contactos/new
+Completed in 84ms (View: 27, DB: 26) | 200 OK [http://localhost/contactos/new]
+  [4;36;1mSQL (0.7ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ContactosController#new (for 127.0.0.1 at 2009-11-04 09:04:43) [GET]
+  [4;36;1mContacto Columns (270.4ms)[0m   [0;1mSHOW FIELDS FROM `contactos`[0m
+Rendering template within layouts/main
+Rendering contactos/new
+Completed in 323ms (View: 34, DB: 271) | 200 OK [http://localhost/contactos/new]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ContactosController#new (for 127.0.0.1 at 2009-11-04 09:04:44) [GET]
+  [4;35;1mContacto Columns (1.8ms)[0m   [0mSHOW FIELDS FROM `contactos`[0m
+Rendering template within layouts/main
+Rendering contactos/new
+Completed in 48ms (View: 25, DB: 2) | 200 OK [http://localhost/contactos/new]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ContactosController#new (for 127.0.0.1 at 2009-11-04 09:04:44) [GET]
+  [4;36;1mContacto Columns (1.8ms)[0m   [0;1mSHOW FIELDS FROM `contactos`[0m
+Rendering template within layouts/main
+Rendering contactos/new
+Completed in 40ms (View: 19, DB: 2) | 200 OK [http://localhost/contactos/new]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ContactosController#new (for 127.0.0.1 at 2009-11-04 09:04:44) [GET]
+  [4;35;1mContacto Columns (1.6ms)[0m   [0mSHOW FIELDS FROM `contactos`[0m
+Rendering template within layouts/main
+Rendering contactos/new
+Completed in 47ms (View: 29, DB: 2) | 200 OK [http://localhost/contactos/new]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ContactosController#new (for 127.0.0.1 at 2009-11-04 09:04:44) [GET]
+  [4;36;1mContacto Columns (1.1ms)[0m   [0;1mSHOW FIELDS FROM `contactos`[0m
+Rendering template within layouts/main
+Rendering contactos/new
+Completed in 30ms (View: 19, DB: 1) | 200 OK [http://localhost/contactos/new]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ContactosController#new (for 127.0.0.1 at 2009-11-04 09:04:44) [GET]
+  [4;35;1mContacto Columns (1.1ms)[0m   [0mSHOW FIELDS FROM `contactos`[0m
+Rendering template within layouts/main
+Rendering contactos/new
+Completed in 142ms (View: 121, DB: 1) | 200 OK [http://localhost/contactos/new]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ContactosController#new (for 127.0.0.1 at 2009-11-04 09:04:44) [GET]
+  [4;36;1mContacto Columns (1.0ms)[0m   [0;1mSHOW FIELDS FROM `contactos`[0m
+Rendering template within layouts/main
+Rendering contactos/new
+Completed in 40ms (View: 23, DB: 1) | 200 OK [http://localhost/contactos/new]
+  [4;35;1mSQL (0.2ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ContactosController#new (for 127.0.0.1 at 2009-11-04 09:04:44) [GET]
+  [4;35;1mContacto Columns (0.9ms)[0m   [0mSHOW FIELDS FROM `contactos`[0m
+Rendering template within layouts/main
+Rendering contactos/new
+Completed in 26ms (View: 16, DB: 1) | 200 OK [http://localhost/contactos/new]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ContactosController#new (for 127.0.0.1 at 2009-11-04 09:04:44) [GET]
+  [4;36;1mContacto Columns (1.4ms)[0m   [0;1mSHOW FIELDS FROM `contactos`[0m
+Rendering template within layouts/main
+Rendering contactos/new
+Completed in 27ms (View: 16, DB: 2) | 200 OK [http://localhost/contactos/new]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ContactosController#new (for 127.0.0.1 at 2009-11-04 09:04:44) [GET]
+  [4;35;1mContacto Columns (1.0ms)[0m   [0mSHOW FIELDS FROM `contactos`[0m
+Rendering template within layouts/main
+Rendering contactos/new
+Completed in 40ms (View: 24, DB: 1) | 200 OK [http://localhost/contactos/new]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ContactosController#new (for 127.0.0.1 at 2009-11-04 09:04:44) [GET]
+  [4;36;1mContacto Columns (0.9ms)[0m   [0;1mSHOW FIELDS FROM `contactos`[0m
+Rendering template within layouts/main
+Rendering contactos/new
+Completed in 25ms (View: 15, DB: 1) | 200 OK [http://localhost/contactos/new]
+  [4;35;1mSQL (0.2ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ContactosController#new (for 127.0.0.1 at 2009-11-04 09:04:45) [GET]
+  [4;35;1mContacto Columns (0.9ms)[0m   [0mSHOW FIELDS FROM `contactos`[0m
+Rendering template within layouts/main
+Rendering contactos/new
+Completed in 32ms (View: 21, DB: 1) | 200 OK [http://localhost/contactos/new]
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ContactosController#new (for 127.0.0.1 at 2009-11-04 09:05:41) [GET]
+  [4;36;1mContacto Columns (2.2ms)[0m   [0;1mSHOW FIELDS FROM `contactos`[0m
+Rendering template within layouts/main
+Rendering contactos/new
+Completed in 82ms (View: 58, DB: 3) | 200 OK [http://localhost/contactos/new]
+  [4;35;1mSQL (0.2ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ContactosController#new (for 127.0.0.1 at 2009-11-04 09:05:43) [GET]
+  [4;35;1mContacto Columns (2.8ms)[0m   [0mSHOW FIELDS FROM `contactos`[0m
+Rendering template within layouts/main
+Rendering contactos/new
+Completed in 63ms (View: 37, DB: 3) | 200 OK [http://localhost/contactos/new]
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ContactosController#new (for 127.0.0.1 at 2009-11-04 09:05:44) [GET]
+  [4;36;1mContacto Columns (2.1ms)[0m   [0;1mSHOW FIELDS FROM `contactos`[0m
+Rendering template within layouts/main
+Rendering contactos/new
+Completed in 60ms (View: 37, DB: 3) | 200 OK [http://localhost/contactos/new]
+  [4;35;1mSQL (0.3ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ContactosController#new (for 127.0.0.1 at 2009-11-04 09:05:44) [GET]
+  [4;35;1mContacto Columns (16.9ms)[0m   [0mSHOW FIELDS FROM `contactos`[0m
+Rendering template within layouts/main
+Rendering contactos/new
+Completed in 76ms (View: 38, DB: 17) | 200 OK [http://localhost/contactos/new]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ContactosController#new (for 127.0.0.1 at 2009-11-04 09:05:45) [GET]
+  [4;36;1mContacto Columns (2.1ms)[0m   [0;1mSHOW FIELDS FROM `contactos`[0m
+Rendering template within layouts/main
+Rendering contactos/new
+Completed in 62ms (View: 37, DB: 3) | 200 OK [http://localhost/contactos/new]
+  [4;35;1mSQL (0.2ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ContactosController#new (for 127.0.0.1 at 2009-11-04 09:06:30) [GET]
+  [4;35;1mContacto Columns (2.3ms)[0m   [0mSHOW FIELDS FROM `contactos`[0m
+Rendering template within layouts/main
+Rendering contactos/new
+Completed in 78ms (View: 55, DB: 3) | 200 OK [http://localhost/contactos/new]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ContactosController#new (for 127.0.0.1 at 2009-11-04 09:06:32) [GET]
+  [4;36;1mContacto Columns (4.5ms)[0m   [0;1mSHOW FIELDS FROM `contactos`[0m
+Rendering template within layouts/main
+Rendering contactos/new
+Completed in 96ms (View: 58, DB: 5) | 200 OK [http://localhost/contactos/new]
+  [4;35;1mSQL (0.2ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ContactosController#new (for 127.0.0.1 at 2009-11-04 09:06:33) [GET]
+  [4;35;1mContacto Columns (2.3ms)[0m   [0mSHOW FIELDS FROM `contactos`[0m
+Rendering template within layouts/main
+Rendering contactos/new
+Completed in 70ms (View: 40, DB: 3) | 200 OK [http://localhost/contactos/new]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ContactosController#new (for 127.0.0.1 at 2009-11-04 09:06:33) [GET]
+  [4;36;1mContacto Columns (2.7ms)[0m   [0;1mSHOW FIELDS FROM `contactos`[0m
+Rendering template within layouts/main
+Rendering contactos/new
+Completed in 59ms (View: 36, DB: 3) | 200 OK [http://localhost/contactos/new]
+  [4;35;1mSQL (0.2ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.7ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ContactosController#new (for 127.0.0.1 at 2009-11-04 09:06:34) [GET]
+  [4;35;1mContacto Columns (3.0ms)[0m   [0mSHOW FIELDS FROM `contactos`[0m
+Rendering template within layouts/main
+Rendering contactos/new
+Completed in 70ms (View: 43, DB: 4) | 200 OK [http://localhost/contactos/new]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ContactosController#new (for 127.0.0.1 at 2009-11-04 09:06:34) [GET]
+  [4;36;1mContacto Columns (0.9ms)[0m   [0;1mSHOW FIELDS FROM `contactos`[0m
+Rendering template within layouts/main
+Rendering contactos/new
+Completed in 59ms (View: 33, DB: 1) | 200 OK [http://localhost/contactos/new]
+  [4;35;1mSQL (0.3ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ContactosController#new (for 127.0.0.1 at 2009-11-04 09:07:29) [GET]
+  [4;35;1mContacto Columns (2.3ms)[0m   [0mSHOW FIELDS FROM `contactos`[0m
+Rendering template within layouts/main
+Rendering contactos/new
+Completed in 77ms (View: 55, DB: 3) | 200 OK [http://localhost/contactos/new]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ContactosController#new (for 127.0.0.1 at 2009-11-04 09:07:31) [GET]
+  [4;36;1mContacto Columns (2.1ms)[0m   [0;1mSHOW FIELDS FROM `contactos`[0m
+Rendering template within layouts/main
+Rendering contactos/new
+Completed in 60ms (View: 37, DB: 2) | 200 OK [http://localhost/contactos/new]
+  [4;35;1mSQL (3.5ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ContactosController#new (for 127.0.0.1 at 2009-11-04 09:07:31) [GET]
+  [4;35;1mContacto Columns (2.2ms)[0m   [0mSHOW FIELDS FROM `contactos`[0m
+Rendering template within layouts/main
+Rendering contactos/new
+Completed in 59ms (View: 36, DB: 6) | 200 OK [http://localhost/contactos/new]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ContactosController#new (for 127.0.0.1 at 2009-11-04 09:07:31) [GET]
+  [4;36;1mContacto Columns (2.1ms)[0m   [0;1mSHOW FIELDS FROM `contactos`[0m
+Rendering template within layouts/main
+Rendering contactos/new
+Completed in 266ms (View: 43, DB: 3) | 200 OK [http://localhost/contactos/new]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ContactosController#new (for 127.0.0.1 at 2009-11-04 09:07:32) [GET]
+  [4;35;1mContacto Columns (1.0ms)[0m   [0mSHOW FIELDS FROM `contactos`[0m
+Rendering template within layouts/main
+Rendering contactos/new
+Completed in 31ms (View: 21, DB: 1) | 200 OK [http://localhost/contactos/new]
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.4ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ContactosController#new (for 127.0.0.1 at 2009-11-04 09:08:50) [GET]
+  [4;36;1mContacto Columns (2.3ms)[0m   [0;1mSHOW FIELDS FROM `contactos`[0m
+Rendering template within layouts/main
+Rendering contactos/new
+Completed in 127ms (View: 102, DB: 3) | 200 OK [http://localhost/contactos/new]
+  [4;35;1mSQL (0.3ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ContactosController#new (for 127.0.0.1 at 2009-11-04 09:08:52) [GET]
+  [4;35;1mContacto Columns (2.2ms)[0m   [0mSHOW FIELDS FROM `contactos`[0m
+Rendering template within layouts/main
+Rendering contactos/new
+Completed in 58ms (View: 36, DB: 3) | 200 OK [http://localhost/contactos/new]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ContactosController#new (for 127.0.0.1 at 2009-11-04 09:13:01) [GET]
+  [4;36;1mContacto Columns (2.0ms)[0m   [0;1mSHOW FIELDS FROM `contactos`[0m
+Rendering template within layouts/main
+Rendering contactos/new
+Completed in 81ms (View: 58, DB: 2) | 200 OK [http://localhost/contactos/new]
+  [4;35;1mSQL (0.3ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ContactosController#new (for 127.0.0.1 at 2009-11-04 09:15:03) [GET]
+  [4;35;1mContacto Columns (2.2ms)[0m   [0mSHOW FIELDS FROM `contactos`[0m
+Rendering template within layouts/main
+Rendering contactos/new
+Completed in 107ms (View: 84, DB: 3) | 200 OK [http://localhost/contactos/new]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ContactosController#new (for 127.0.0.1 at 2009-11-04 09:15:05) [GET]
+  [4;36;1mContacto Columns (1.8ms)[0m   [0;1mSHOW FIELDS FROM `contactos`[0m
+Rendering template within layouts/main
+Rendering contactos/new
+Completed in 58ms (View: 36, DB: 2) | 200 OK [http://localhost/contactos/new]
+  [4;35;1mSQL (0.2ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ContactosController#new (for 127.0.0.1 at 2009-11-04 09:16:09) [GET]
+  [4;35;1mContacto Columns (2.2ms)[0m   [0mSHOW FIELDS FROM `contactos`[0m
+Rendering template within layouts/main
+Rendering contactos/new
+Completed in 80ms (View: 55, DB: 3) | 200 OK [http://localhost/contactos/new]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ContactosController#new (for 127.0.0.1 at 2009-11-04 09:16:18) [GET]
+  [4;36;1mContacto Columns (2.1ms)[0m   [0;1mSHOW FIELDS FROM `contactos`[0m
+Rendering template within layouts/main
+Rendering contactos/new
+Completed in 87ms (View: 59, DB: 3) | 200 OK [http://localhost/contactos/new]
+  [4;35;1mSQL (0.2ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ContactosController#new (for 127.0.0.1 at 2009-11-04 09:17:20) [GET]
+  [4;35;1mContacto Columns (2.1ms)[0m   [0mSHOW FIELDS FROM `contactos`[0m
+Rendering template within layouts/main
+Rendering contactos/new
+Completed in 81ms (View: 57, DB: 3) | 200 OK [http://localhost/contactos/new]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ContactosController#new (for 127.0.0.1 at 2009-11-04 09:17:32) [GET]
+  [4;36;1mContacto Columns (2.1ms)[0m   [0;1mSHOW FIELDS FROM `contactos`[0m
+Rendering template within layouts/main
+Rendering contactos/new
+Completed in 83ms (View: 57, DB: 3) | 200 OK [http://localhost/contactos/new]
+  [4;35;1mSQL (0.3ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ContactosController#new (for 127.0.0.1 at 2009-11-04 09:18:58) [GET]
+  [4;35;1mContacto Columns (2.1ms)[0m   [0mSHOW FIELDS FROM `contactos`[0m
+Rendering template within layouts/main
+Rendering contactos/new
+Completed in 78ms (View: 55, DB: 3) | 200 OK [http://localhost/contactos/new]
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ContactosController#new (for 127.0.0.1 at 2009-11-04 09:19:30) [GET]
+  [4;36;1mContacto Columns (2.5ms)[0m   [0;1mSHOW FIELDS FROM `contactos`[0m
+Rendering template within layouts/main
+Rendering contactos/new
+Completed in 82ms (View: 57, DB: 3) | 200 OK [http://localhost/contactos/new]
+  [4;35;1mSQL (0.3ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ContactosController#index (for 127.0.0.1 at 2009-11-04 09:19:43) [GET]
+
+ActionController::UnknownAction (No action responded to index. Actions: create and new):
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+  /usr/lib/ruby/gems/1.8/gems/ruby-debug-ide-0.4.5/lib/ruby-debug.rb:101:in `debug_load'
+  /usr/lib/ruby/gems/1.8/gems/ruby-debug-ide-0.4.5/lib/ruby-debug.rb:101:in `debug_program'
+  /usr/lib/ruby/gems/1.8/gems/ruby-debug-ide-0.4.5/bin/rdebug-ide:82
+  /usr/bin/rdebug-ide:19:in `load'
+  /usr/bin/rdebug-ide:19
+  -e:2:in `load'
+  -e:2
+
+Rendering rescues/layout (not_found)
+  [4;35;1mSQL (0.2ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ContactosController#empresa (for 127.0.0.1 at 2009-11-04 09:19:48) [GET]
+
+ActionController::UnknownAction (No action responded to empresa. Actions: create and new):
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+  /usr/lib/ruby/gems/1.8/gems/ruby-debug-ide-0.4.5/lib/ruby-debug.rb:101:in `debug_load'
+  /usr/lib/ruby/gems/1.8/gems/ruby-debug-ide-0.4.5/lib/ruby-debug.rb:101:in `debug_program'
+  /usr/lib/ruby/gems/1.8/gems/ruby-debug-ide-0.4.5/bin/rdebug-ide:82
+  /usr/bin/rdebug-ide:19:in `load'
+  /usr/bin/rdebug-ide:19
+  -e:2:in `load'
+  -e:2
+
+Rendering rescues/layout (not_found)
+  [4;35;1mSQL (0.2ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ContactosController#new (for 127.0.0.1 at 2009-11-04 09:19:52) [GET]
+  [4;35;1mContacto Columns (4.2ms)[0m   [0mSHOW FIELDS FROM `contactos`[0m
+Rendering template within layouts/main
+Rendering contactos/new
+Completed in 64ms (View: 39, DB: 5) | 200 OK [http://localhost/contactos/new]
+  [4;36;1mSQL (0.5ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MainController#index (for 127.0.0.1 at 2009-11-04 09:20:01) [GET]
+Rendering template within layouts/main
+Rendering main/index
+Completed in 53ms (View: 45, DB: 1) | 200 OK [http://localhost/main]
