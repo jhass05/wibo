@@ -14,14 +14,6 @@
    <div>Telefono: (434)(44) 434527593 <br /></div>
  
  
-<<<<<<< HEAD:app/views/main/contactos.html.erb
- <%= form_tag :action => 'new_contact' %>
-  <%= render :partial => 'form_contact' %>
-  <%= submit_tag 'enviar' %>
-<%= form_tag %>
-
- 
-=======
 <h1>New product</h1>
 
 <% form_for(@contacto) do |f| %>
@@ -47,7 +39,6 @@
     <%= f.submit 'Create' %>
   </p>
 <% end %>
->>>>>>> jhass:app/views/main/contactos.html.erb
 
  
  
