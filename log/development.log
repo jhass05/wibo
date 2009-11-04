@@ -9322,3 +9322,133 @@ Rendering template within layouts/main
 Rendering main/index
 Completed in 53ms (View: 45, DB: 1) | 200 OK [http://localhost/main]
 >>>>>>> jhass:log/development.log
+  [4;36;1mSQL (224.5ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (216.9ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (441.2ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (899.2ms)[0m   [0mSELECT version FROM schema_migrations[0m
+Migrating to CreateContactos (20091103174903)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mMysql::Error: Table 'contactos' already exists: CREATE TABLE `contactos` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `name` varchar(255), `phone` varchar(255), `email` varchar(255), `company` varchar(255), `message` text, `created_at` datetime, `updated_at` datetime) ENGINE=InnoDB[0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (25.9ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (345.9ms)[0m   [0mCREATE TABLE `schema_migrations` (`version` varchar(255) NOT NULL) ENGINE=InnoDB[0m
+  [4;36;1mSQL (647.1ms)[0m   [0;1mCREATE UNIQUE INDEX `unique_schema_migrations` ON `schema_migrations` (`version`)[0m
+  [4;35;1mSQL (0.7ms)[0m   [0mSHOW TABLES[0m
+  [4;36;1mSQL (0.8ms)[0m   [0;1mSELECT version FROM schema_migrations[0m
+Migrating to CreateContactos (20091103174903)
+  [4;35;1mSQL (139.7ms)[0m   [0mCREATE TABLE `contactos` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `name` varchar(255), `phone` varchar(255), `email` varchar(255), `company` varchar(255), `message` text, `created_at` datetime, `updated_at` datetime) ENGINE=InnoDB[0m
+  [4;36;1mSQL (134.4ms)[0m   [0;1mINSERT INTO schema_migrations (version) VALUES ('20091103174903')[0m
+  [4;35;1mSQL (0.8ms)[0m   [0mSHOW TABLES[0m
+  [4;36;1mSQL (0.6ms)[0m   [0;1mSELECT version FROM schema_migrations[0m
+  [4;35;1mSQL (3.4ms)[0m   [0mSHOW TABLES[0m
+  [4;36;1mSQL (194.8ms)[0m   [0;1mSHOW FIELDS FROM `contactos`[0m
+  [4;35;1mSQL (2.0ms)[0m   [0mdescribe `contactos`[0m
+  [4;36;1mSQL (51.3ms)[0m   [0;1mSHOW KEYS FROM `contactos`[0m
+  [4;36;1mSQL (106.8ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (27.6ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ContactosController#new (for 127.0.0.1 at 2009-11-04 14:46:09) [GET]
+  [4;36;1mContacto Columns (86.2ms)[0m   [0;1mSHOW FIELDS FROM `contactos`[0m
+Rendering template within layouts/main
+Rendering contactos/new
+Completed in 699ms (View: 581, DB: 221) | 200 OK [http://localhost/contactos/new]
+  [4;35;1mSQL (0.2ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ContactosController#new (for 127.0.0.1 at 2009-11-04 14:46:12) [GET]
+  [4;35;1mContacto Columns (2.0ms)[0m   [0mSHOW FIELDS FROM `contactos`[0m
+Rendering template within layouts/main
+Rendering contactos/new
+Completed in 55ms (View: 36, DB: 3) | 200 OK [http://localhost/contactos/new]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ContactosController#create (for 127.0.0.1 at 2009-11-04 14:46:38) [POST]
+  Parameters: {"commit"=>"enviar", "authenticity_token"=>"JwfjMUQYiQvU8vxjEcAkLK1AFyFKbHR/MQJ+J2W6cmU=", "contacto"=>{"company"=>"", "name"=>"ghj", "phone"=>"", "message"=>"jhjghjg", "email"=>""}}
+Redirected to http://localhost:3003/contactos/new
+Completed in 9ms (DB: 0) | 302 Found [http://localhost/contactos]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ContactosController#new (for 127.0.0.1 at 2009-11-04 14:46:39) [GET]
+  [4;36;1mContacto Columns (2.2ms)[0m   [0;1mSHOW FIELDS FROM `contactos`[0m
+Rendering template within layouts/main
+Rendering contactos/new
+Completed in 54ms (View: 31, DB: 3) | 200 OK [http://localhost/contactos/new]
+  [4;35;1mSQL (0.2ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ContactosController#new (for 127.0.0.1 at 2009-11-04 14:47:24) [GET]
+  [4;35;1mContacto Columns (2.1ms)[0m   [0mSHOW FIELDS FROM `contactos`[0m
+Rendering template within layouts/main
+Rendering contactos/new
+Completed in 68ms (View: 50, DB: 3) | 200 OK [http://localhost/contactos/new]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ContactosController#create (for 127.0.0.1 at 2009-11-04 14:47:32) [POST]
+  Parameters: {"commit"=>"enviar", "authenticity_token"=>"JwfjMUQYiQvU8vxjEcAkLK1AFyFKbHR/MQJ+J2W6cmU=", "contacto"=>{"company"=>"gfg", "name"=>"gfgf", "phone"=>"gfgf", "message"=>"gfgf", "email"=>"gfgf"}}
+Redirected to http://localhost:3003/contactos/new
+Completed in 9ms (DB: 0) | 302 Found [http://localhost/contactos]
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ContactosController#new (for 127.0.0.1 at 2009-11-04 14:47:33) [GET]
+  [4;36;1mContacto Columns (2.1ms)[0m   [0;1mSHOW FIELDS FROM `contactos`[0m
+Rendering template within layouts/main
+Rendering contactos/new
+Completed in 109ms (View: 61, DB: 3) | 200 OK [http://localhost/contactos/new]
+  [4;35;1mSQL (10.4ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (2.3ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ContactosController#new (for 127.0.0.1 at 2009-11-04 14:53:46) [GET]
+  [4;35;1mContacto Columns (49.5ms)[0m   [0mSHOW FIELDS FROM `contactos`[0m
+Rendering template within layouts/main
+Rendering contactos/new
+Completed in 286ms (View: 218, DB: 62) | 200 OK [http://localhost/contactos/new]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MainController#index (for 127.0.0.1 at 2009-11-04 14:53:56) [GET]
+Rendering template within layouts/main
+Rendering main/index
+Completed in 64ms (View: 49, DB: 0) | 200 OK [http://localhost/main/]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MainController#images to gif (for 127.0.0.1 at 2009-11-04 14:53:56) [GET]
+  Parameters: {"id"=>"blank"}
+
+ActionController::UnknownAction (No action responded to images. Actions: clientes, contactos, empresa, hosting, index, noticias, proyectos, and servicios):
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+  -e:2:in `load'
+  -e:2
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ContactosController#index (for 127.0.0.1 at 2009-11-04 14:54:11) [GET]
+Rendering template within layouts/main
+Rendering contactos/index
+Completed in 39ms (View: 31, DB: 0) | 200 OK [http://localhost/contactos]

@@ -9,6 +9,9 @@ class ContactosController < ApplicationController
   def create 
     redirect_to :action => :new
   end
- 
+  
+  def index
+    
+  end
   
 end 
