@@ -13,10 +13,10 @@
 <div id="topPanel">
 <ul>
 <li class="active"><%= link_to 'Contactos', {:controller => "contactos", :action => "index"}%></li>
-<li class="active"><%= link_to 'Clientes', {:controller => "main", :action => "clientes"}%></li>
-<li class="active"><%= link_to 'Noticias', {:controller => "main", :action => "noticias"}%></li>
-<li class="active"><%= link_to 'Empresa', {:controller => "main", :action => "empresa"} %></li>
-<li class="active"><%= link_to 'Inicio', {:controller => "main", :action => "index"}%>s</li>
+<li class="active"><%= link_to 'Clientes', {:action => "clientes"}%></li>
+<li class="active"><%= link_to 'Noticias', {:action => "noticias"}%></li>
+<li class="active"><%= link_to 'Empresa', {:action => "empresa"} %></li>
+<li class="active"><%= link_to 'Inicio', {:action => "index"}%></>Inicio</li>
 </ul>
 <a href="index.html"><%= image_tag "logo_wibo.png", :border=> "0" %></a>
 <div id="headerPanelfast">

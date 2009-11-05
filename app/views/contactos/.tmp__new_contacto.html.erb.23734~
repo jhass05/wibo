@@ -1,8 +1,5 @@
- 
-   
-   
    <h2>Contacto</h2>
-   <% form_for (@contacto, :url=> {:action=>'create'}) do |f|%>
+   <% form_for (contacto, :url=> {:action=>'index'}) do |f|%>
    <div>Nombre <%= f.text_field :name %></div>
    <div>Telefono <%= f.text_field :phone %></div>
    <div>Email <%= f.text_field :email %></div>
