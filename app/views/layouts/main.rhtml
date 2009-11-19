@@ -22,17 +22,17 @@
 <div id="headerPanelfast">
 	<h2>Proyectos</h2>
 	<p>Tus objetivos nuestras metas</p>
-	<%= link_to '', {:action => "proyectos"} %>
+	<%= link_to '', {:controller => "main", :action => "proyectos"} %>
 	</a></div>
 <div id="headerPanelsecond">
 	<h2>Hosting</h2>
 	<p>Hospedaje web y mucho mas</p>
-	<%= link_to '', {:action => "hosting"} %>
+	<%= link_to '', {:controller => "main", :action => "hosting"} %>
 	</a></div>
 <div id="headerPanelthird">
 	<h2>Servicios</h2>
 	<p>Desarrollamos tus sueños </p>
-	<%= link_to '', {:action => "servicios"} %>
+	<%= link_to '', {:controller => "main", :action => "servicios"} %>
 	</a></div>
 </div>
 
@@ -45,14 +45,14 @@
 <div id="footerPanel">
   <div id="footerbodyPanel">
   <ul>
-  <li><a href="#">Inicio </a>| </li>
-  <li><a href="#">Empresa </a> | </li>
-  <li><a href="#">Noticias </a>| </li>
-  <li><a href="#">Clientes </a> | </li>
-  <li><a href="#">Contactos </a> </li>
+  <li><%= link_to 'Inicio', {:controller => "main", :action => "index"}%>| </li>
+  <li><%= link_to 'Empresa', {:controller => "main", :action => "empresa"}%> | </li>
+  <li><%= link_to 'Noticias', {:controller => "main", :action => "noticias"}%>| </li>
+  <li><%= link_to 'Clientes', {:controller => "main", :action => "clientes"}%> | </li>
+  <li><%= link_to 'Contactos', {:controller => "contactos", :action => "index"}%> </li>
   </ul>
-  <p class="copyright">© Wibo sudando software.</p></br>
-  <p class="copyright">2009</p>
+  <p class="copyright">© Wibo sudando software. 2009</p></br>
+  
    <div id="footerhtmlPanel"><a href="http://validator.w3.org/check?uri=referer" target="_blank">html</a></div>
    <div id="footercssPanel"><a href="http://jigsaw.w3.org/css-validator/check/referer" target="_blank">css</a></div>
   </div>

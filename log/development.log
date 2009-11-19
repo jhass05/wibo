@@ -10576,3 +10576,93 @@ Rendering contactos/index
   [4;36;1mContacto Columns (2.1ms)[0m   [0;1mSHOW FIELDS FROM `contactos`[0m
 Rendered contactos/_new_contacto (24.6ms)
 Completed in 56ms (View: 48, DB: 3) | 200 OK [http://localhost/contactos]
+  [4;35;1mSQL (0.2ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ContactosController#show (for 127.0.0.1 at 2009-11-05 08:35:50) [GET]
+  Parameters: {"id"=>"hosting"}
+
+ActionController::UnknownAction (No action responded to show. Actions: index):
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+  -e:2:in `load'
+  -e:2
+
+Rendering rescues/layout (not_found)
+  [4;35;1mSQL (0.2ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ContactosController#index (for 127.0.0.1 at 2009-11-05 08:37:02) [GET]
+Rendering template within layouts/main
+Rendering contactos/index
+  [4;35;1mContacto Columns (2.2ms)[0m   [0mSHOW FIELDS FROM `contactos`[0m
+Rendered contactos/_new_contacto (17.6ms)
+Completed in 107ms (View: 95, DB: 3) | 200 OK [http://localhost/contactos]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ContactosController#index (for 127.0.0.1 at 2009-11-05 08:37:03) [GET]
+Rendering template within layouts/main
+Rendering contactos/index
+  [4;36;1mContacto Columns (5.6ms)[0m   [0;1mSHOW FIELDS FROM `contactos`[0m
+Rendered contactos/_new_contacto (31.0ms)
+Completed in 134ms (View: 102, DB: 6) | 200 OK [http://localhost/contactos]
+  [4;35;1mSQL (0.3ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ContactosController#index (for 127.0.0.1 at 2009-11-05 08:37:03) [GET]
+Rendering template within layouts/main
+Rendering contactos/index
+  [4;35;1mContacto Columns (5.9ms)[0m   [0mSHOW FIELDS FROM `contactos`[0m
+Rendered contactos/_new_contacto (35.1ms)
+Completed in 80ms (View: 67, DB: 6) | 200 OK [http://localhost/contactos]
+  [4;36;1mSQL (82.5ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (48.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ContactosController#index (for 127.0.0.1 at 2009-11-05 08:40:40) [GET]
+Rendering template within layouts/main
+Rendering contactos/index
+  [4;36;1mContacto Columns (328.0ms)[0m   [0;1mSHOW FIELDS FROM `contactos`[0m
+Rendered contactos/_new_contacto (374.6ms)
+Completed in 1749ms (View: 1290, DB: 459) | 200 OK [http://localhost/contactos]
+  [4;35;1mSQL (0.2ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ContactosController#index (for 127.0.0.1 at 2009-11-05 08:42:08) [GET]
+Rendering template within layouts/main
+Rendering contactos/index
+  [4;35;1mContacto Columns (2.2ms)[0m   [0mSHOW FIELDS FROM `contactos`[0m
+Rendered contactos/_new_contacto (21.6ms)
+Completed in 80ms (View: 71, DB: 3) | 200 OK [http://localhost/contactos]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MainController#index (for 127.0.0.1 at 2009-11-19 15:38:00) [GET]
+Rendering template within layouts/main
+Rendering main/index
+Completed in 223ms (View: 220, DB: 0) | 200 OK [http://localhost/main]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ContactosController#index (for 127.0.0.1 at 2009-11-19 15:38:11) [GET]
+Rendering template within layouts/main
+Rendering contactos/index
+  [4;36;1mContacto Columns (62.0ms)[0m   [0;1mSHOW FIELDS FROM `contactos`[0m
+Rendered contactos/_new_contacto (86.6ms)
+Completed in 232ms (View: 163, DB: 62) | 200 OK [http://localhost/contactos]
