@@ -12,7 +12,7 @@
 <body>
 <div id="topPanel">
 <ul>
-<li class="active"><h ref="contactos"></li>
+<li class="active"><%= link_to 'Contactos', {:controller => "contactos", :action => "index"}%></li>
 <li class="active"><%= link_to 'Clientes', {:controller => "main", :action => "clientes"}%></li>
 <li class="active"><%= link_to 'Noticias', {:controller => "main", :action => "noticias"}%></li>
 <li class="active"><%= link_to 'Empresa', {:controller => "main", :action => "empresa"} %></li>
