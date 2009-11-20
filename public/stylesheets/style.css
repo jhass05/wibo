@@ -34,7 +34,8 @@ ul{list-style-type:none;}
 /* /TOP PANEL*/
 
 /* BODY PANEL*/
-#bodyPanel{width:762px; height:360px; position:relative; margin:0 auto; padding:0;}
+
+#bodyPanel{width:754px; height:460px; position:relative; margin:0 auto; padding:0;}
 #bodyPanel h2{ background:#fff; display:block; width:250px; height:50px; margin:0; font:30px/30px Georgia, "Times New Roman", Times, serif; font-weight:normal; padding:4px 0 0 202px; color:#FF7113;}
 #bodyPanel p{background:url(../images/symbol.jpg) 0 0 no-repeat #fff; margin:0 0 0 54px; padding:0 42px 35px 150px; color:#0F0F0F;}
 #bodyPanel p span{font-weight:bold;}
@@ -44,7 +45,7 @@ ul{list-style-type:none;}
 #bodyPanel p.more a{width:76px; height:26px; display:block; margin:314px 20px 19px 618px; background:url(../images/more.gif) 0 0 no-repeat #fff; color:#555; text-decoration:none; font:15px/26px "Trebuchet MS",Arial, Helvetica, sans-serif; padding:0 0 0 10px; text-transform:uppercase; position:absolute; top:0px; right:0px;}
 #bodyPanel p.more a:hover{background:url(../images/more.gif) 0 0 no-repeat #fff; color:#216EBD; text-decoration:none;}
 #bodyPanel h3{background:#fff; display:block; width:350px; height:34px; margin:34px 0 12px 0; font:30px/30px Georgia, "Times New Roman", Times, serif; font-weight:normal; padding:0 0 0 20px; color:#FF7113;}
-#bodyPanel #testimonial{width:563px; height:162px; display:block; background:url(../images/testimonial-bg.gif) 0 0 no-repeat #FFF6DB; padding:32px 33px 0 148px; margin:0 0 0 20px; color:#786321;}
+#bodyPanel #testimonial{width:280px; height:162px; display:block; background:url(../images/testimonial-bg.gif) 0 0 no-repeat #FFF6DB; padding:52px 0 0 128px; margin:0 0 0 0px; color:#786321;}
 #bodyPanel #testimonial p{background:none; margin:0; padding:0 0 5px 0;}
 #bodyPanel #testimonial p span{color:#786321 !Important; background:#FFFAED !Important;}
 #bodyPanel p.moretwo{height:26px; padding:0; background:none; margin:0;}
@@ -57,9 +58,10 @@ ul{list-style-type:none;}
 
 /*clientes*/
 #bodyPanel h4{ background:#fff; width:250px; height:30px; position:absolute; top:21px; right:5px; margin:0; font:30px/30px Georgia, "Times New Roman", Times, serif; font-weight:normal; padding:0px; color:#FF7113;}
-#bodyPanel ul{width:225px; display:block; position:absolute; right:30px; top:55px; }
-#bodyPanel ul li{font:12px/25px Arial, Helvetica, sans-serif; font-weight:normal; background:url(../images/symbol2.gif) 0 8px no-repeat; padding:0 0 0 30px;}
-#bodyPanel ul span{ background:url(../images/dot-line.gif) repeat-x 0 100%; height:25px; display:block;}
+#bodyPanel ul{width:325px; display:block; position:absolute; left:430px; top:55px; }
+#bodyPanel ul li{font:12px/25px Arial, Helvetica, sans-serif; font-weight:normal; padding:0 0 0 10px;}
+#bodyPanel ul li span{ background:url(../images/dot-line.gif) repeat-x 0 100%; height:25px; display:block;}
+#boton{ background:#fff; width:250px; height:30px; position:absolute; top:320px; left:95px; margin:30px;}
 /* FOOTER PANEL*/
 #footerPanel{width:100%;  background:#DCDCDC; color:#4C4C4C; font-size:12px;}
 #footerbodyPanel{width:762px;height:133px; position:relative; margin:0 auto; padding:0;}

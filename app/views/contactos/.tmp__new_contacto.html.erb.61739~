@@ -1,0 +1,10 @@
+   <h2>Contacto</h2>
+   <% form_for (contacto, :url=> {:action=>'index'}) do |f|%>
+   <div>Nombre <%= f.text_field :name %></div>
+   <div>Telefono <%= f.text_field :phone %></div>
+   <div>Email <%= f.text_field :email %></div>
+   <div>Empresa <%= f.text_field :company %></div>
+   <div>Mensaje <%= f.text_area :message , :cols =>"35", :rows =>"5" %></div>
+   <div><%= f.submit "enviar" %></div>
+   <% end %> 
+ 

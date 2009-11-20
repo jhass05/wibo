@@ -1,10 +1,11 @@
-   <h2>Contacto</h2>
+   <h4>Contacto</h4>
    <% form_for (contacto, :url=> {:action=>'index'}) do |f|%>
-   <div>Nombre <%= f.text_field :name %></div>
-   <div>Telefono <%= f.text_field :phone %></div>
-   <div>Email <%= f.text_field :email %></div>
-   <div>Empresa <%= f.text_field :company %></div>
-   <div>Mensaje <%= f.text_area :message , :cols =>"35", :rows =>"5" %></div>
-   <div><%= f.submit "enviar" %></div>
+   <ul>
+   <li>Nombre<%= f.text_field :name %></li>
+   <li>Telefono<%= f.text_field :phone %></li>
+   <li>Email<%= f.text_field :email %></li>
+   <li>Empresa<%= f.text_field :company %></li>
+   <li>Mensaje<%= f.text_area :message , :cols =>"35", :rows =>"5" %></li>
+   <div id="boton"><%= f.submit "enviar" %></div>
+   </ul>
    <% end %> 
- 
