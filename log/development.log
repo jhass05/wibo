@@ -10666,3 +10666,1188 @@ Rendering contactos/index
   [4;36;1mContacto Columns (62.0ms)[0m   [0;1mSHOW FIELDS FROM `contactos`[0m
 Rendered contactos/_new_contacto (86.6ms)
 Completed in 232ms (View: 163, DB: 62) | 200 OK [http://localhost/contactos]
+  [4;36;1mSQL (0.6ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.5ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ClientesController#index (for 127.0.0.1 at 2009-11-19 15:57:38) [GET]
+Rendering template within layouts/main
+Rendering clientes/index
+Completed in 197ms (View: 189, DB: 1) | 200 OK [http://localhost/clientes]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ClientesController#index (for 127.0.0.1 at 2009-11-19 15:57:41) [GET]
+Rendering template within layouts/main
+Rendering clientes/index
+Completed in 37ms (View: 27, DB: 0) | 200 OK [http://localhost/clientes]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ClientesController#index (for 127.0.0.1 at 2009-11-19 15:57:59) [GET]
+Rendering template within layouts/main
+Rendering clientes/index
+Completed in 28ms (View: 20, DB: 0) | 200 OK [http://localhost/clientes]
+  [4;36;1mSQL (0.4ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MainController#index (for 127.0.0.1 at 2009-11-19 15:58:01) [GET]
+Rendering template within layouts/main
+Rendering main/index
+Completed in 52ms (View: 45, DB: 1) | 200 OK [http://localhost/main]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ClientesController#index (for 127.0.0.1 at 2009-11-19 15:58:03) [GET]
+Rendering template within layouts/main
+Rendering clientes/index
+Completed in 28ms (View: 19, DB: 1) | 200 OK [http://localhost/clientes]
+  [4;36;1mSQL (14.4ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (18.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ClientesController#index (for 127.0.0.1 at 2009-11-19 16:03:05) [GET]
+Rendering template within layouts/main
+Rendering clientes/index
+Completed in 204ms (View: 196, DB: 33) | 200 OK [http://localhost/clientes]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MainController#proyectos (for 127.0.0.1 at 2009-11-19 16:05:02) [GET]
+Rendering template within layouts/main
+Rendering main/proyectos
+Completed in 65ms (View: 56, DB: 1) | 200 OK [http://localhost/main/proyectos]
+  [4;36;1mSQL (42.4ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (32.8ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ClientesController#index (for 127.0.0.1 at 2009-11-19 16:09:26) [GET]
+Rendering template within layouts/main
+Rendering clientes/index
+Completed in 62ms (View: 53, DB: 75) | 200 OK [http://localhost/clientes]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing NoticiasController#index (for 127.0.0.1 at 2009-11-19 16:09:30) [GET]
+Rendering template within layouts/main
+Rendering noticias/index
+Completed in 129ms (View: 121, DB: 1) | 200 OK [http://localhost/noticias]
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing NoticiasController#index (for 127.0.0.1 at 2009-11-19 16:12:02) [GET]
+Rendering template within layouts/main
+Rendering noticias/index
+Completed in 41ms (View: 33, DB: 0) | 200 OK [http://localhost/noticias]
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.4ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ContactosController#index (for 127.0.0.1 at 2009-11-19 16:12:05) [GET]
+Rendering template within layouts/main
+Rendering contactos/index
+  [4;36;1mContacto Columns (640.2ms)[0m   [0;1mSHOW FIELDS FROM `contactos`[0m
+Rendered contactos/_new_contacto (163.3ms)
+Completed in 913ms (View: 265, DB: 641) | 200 OK [http://localhost/contactos]
+  [4;35;1mSQL (0.2ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (3.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing NoticiasController#index (for 127.0.0.1 at 2009-11-19 16:12:08) [GET]
+Rendering template within layouts/main
+Rendering noticias/index
+Completed in 25ms (View: 17, DB: 3) | 200 OK [http://localhost/noticias]
+  [4;35;1mSQL (0.2ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing EmpresaController#index (for 127.0.0.1 at 2009-11-19 16:12:10) [GET]
+Rendering template within layouts/main
+Rendering empresa/index
+Completed in 52ms (View: 44, DB: 0) | 200 OK [http://localhost/empresa]
+  [4;35;1mSQL (0.2ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MainController#index (for 127.0.0.1 at 2009-11-19 16:14:04) [GET]
+Rendering template within layouts/main
+Rendering main/index
+Completed in 47ms (View: 31, DB: 0) | 200 OK [http://localhost/main]
+  [4;35;1mSQL (0.2ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing EmpresaController#index (for 127.0.0.1 at 2009-11-19 16:14:48) [GET]
+Rendering template within layouts/main
+Rendering empresa/index
+Completed in 22ms (View: 14, DB: 0) | 200 OK [http://localhost/empresa]
+  [4;35;1mSQL (0.3ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-11-19 16:17:20) [GET]
+
+ActionController::RoutingError (No route matches "/" with {:method=>:get}):
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+  /usr/lib/ruby/gems/1.8/gems/ruby-debug-ide-0.4.5/lib/ruby-debug.rb:101:in `debug_load'
+  /usr/lib/ruby/gems/1.8/gems/ruby-debug-ide-0.4.5/lib/ruby-debug.rb:101:in `debug_program'
+  /usr/lib/ruby/gems/1.8/gems/ruby-debug-ide-0.4.5/bin/rdebug-ide:82
+  /usr/bin/rdebug-ide:19:in `load'
+  /usr/bin/rdebug-ide:19
+  -e:2:in `load'
+  -e:2
+
+Rendering rescues/layout (not_found)
+  [4;35;1mSQL (0.2ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-11-19 16:23:58) [GET]
+
+ActionController::RoutingError (No route matches "/" with {:method=>:get}):
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+  /usr/lib/ruby/gems/1.8/gems/ruby-debug-ide-0.4.5/lib/ruby-debug.rb:101:in `debug_load'
+  /usr/lib/ruby/gems/1.8/gems/ruby-debug-ide-0.4.5/lib/ruby-debug.rb:101:in `debug_program'
+  /usr/lib/ruby/gems/1.8/gems/ruby-debug-ide-0.4.5/bin/rdebug-ide:82
+  /usr/bin/rdebug-ide:19:in `load'
+  /usr/bin/rdebug-ide:19
+  -e:2:in `load'
+  -e:2
+
+Rendering rescues/layout (not_found)
+  [4;35;1mSQL (0.2ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-11-19 16:26:19) [GET]
+
+ActionController::RoutingError (No route matches "/" with {:method=>:get}):
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+  /usr/lib/ruby/gems/1.8/gems/ruby-debug-ide-0.4.5/lib/ruby-debug.rb:101:in `debug_load'
+  /usr/lib/ruby/gems/1.8/gems/ruby-debug-ide-0.4.5/lib/ruby-debug.rb:101:in `debug_program'
+  /usr/lib/ruby/gems/1.8/gems/ruby-debug-ide-0.4.5/bin/rdebug-ide:82
+  /usr/bin/rdebug-ide:19:in `load'
+  /usr/bin/rdebug-ide:19
+  -e:2:in `load'
+  -e:2
+
+Rendering rescues/layout (not_found)
+  [4;35;1mSQL (0.2ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-11-19 16:26:20) [GET]
+
+ActionController::RoutingError (No route matches "/" with {:method=>:get}):
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+  /usr/lib/ruby/gems/1.8/gems/ruby-debug-ide-0.4.5/lib/ruby-debug.rb:101:in `debug_load'
+  /usr/lib/ruby/gems/1.8/gems/ruby-debug-ide-0.4.5/lib/ruby-debug.rb:101:in `debug_program'
+  /usr/lib/ruby/gems/1.8/gems/ruby-debug-ide-0.4.5/bin/rdebug-ide:82
+  /usr/bin/rdebug-ide:19:in `load'
+  /usr/bin/rdebug-ide:19
+  -e:2:in `load'
+  -e:2
+
+Rendering rescues/layout (not_found)
+  [4;35;1mSQL (0.2ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-11-19 16:26:20) [GET]
+
+ActionController::RoutingError (No route matches "/" with {:method=>:get}):
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+  /usr/lib/ruby/gems/1.8/gems/ruby-debug-ide-0.4.5/lib/ruby-debug.rb:101:in `debug_load'
+  /usr/lib/ruby/gems/1.8/gems/ruby-debug-ide-0.4.5/lib/ruby-debug.rb:101:in `debug_program'
+  /usr/lib/ruby/gems/1.8/gems/ruby-debug-ide-0.4.5/bin/rdebug-ide:82
+  /usr/bin/rdebug-ide:19:in `load'
+  /usr/bin/rdebug-ide:19
+  -e:2:in `load'
+  -e:2
+
+Rendering rescues/layout (not_found)
+  [4;35;1mSQL (0.2ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-11-19 16:26:21) [GET]
+
+ActionController::RoutingError (No route matches "/" with {:method=>:get}):
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+  /usr/lib/ruby/gems/1.8/gems/ruby-debug-ide-0.4.5/lib/ruby-debug.rb:101:in `debug_load'
+  /usr/lib/ruby/gems/1.8/gems/ruby-debug-ide-0.4.5/lib/ruby-debug.rb:101:in `debug_program'
+  /usr/lib/ruby/gems/1.8/gems/ruby-debug-ide-0.4.5/bin/rdebug-ide:82
+  /usr/bin/rdebug-ide:19:in `load'
+  /usr/bin/rdebug-ide:19
+  -e:2:in `load'
+  -e:2
+
+Rendering rescues/layout (not_found)
+  [4;35;1mSQL (0.2ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-11-19 16:26:21) [GET]
+
+ActionController::RoutingError (No route matches "/" with {:method=>:get}):
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+  /usr/lib/ruby/gems/1.8/gems/ruby-debug-ide-0.4.5/lib/ruby-debug.rb:101:in `debug_load'
+  /usr/lib/ruby/gems/1.8/gems/ruby-debug-ide-0.4.5/lib/ruby-debug.rb:101:in `debug_program'
+  /usr/lib/ruby/gems/1.8/gems/ruby-debug-ide-0.4.5/bin/rdebug-ide:82
+  /usr/bin/rdebug-ide:19:in `load'
+  /usr/bin/rdebug-ide:19
+  -e:2:in `load'
+  -e:2
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (242.5ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (77.9ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MainController#index (for 127.0.0.1 at 2009-11-19 19:27:32) [GET]
+
+ActionView::MissingTemplate (Missing template main/index.erb in view path app/views):
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+  -e:2:in `load'
+  -e:2
+
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MainController#index (for 127.0.0.1 at 2009-11-19 19:29:09) [GET]
+Rendering template within layouts/main
+Rendering main/index
+Completed in 257ms (View: 250, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MainController#index (for 127.0.0.1 at 2009-11-19 19:29:16) [GET]
+Rendering template within layouts/main
+Rendering main/index
+Completed in 18ms (View: 11, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing EmpresaController#index (for 127.0.0.1 at 2009-11-19 19:29:18) [GET]
+Rendering template within layouts/main
+Rendering empresa/index
+Completed in 462ms (View: 455, DB: 0) | 200 OK [http://localhost/empresa]
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing NoticiasController#index (for 127.0.0.1 at 2009-11-19 19:29:23) [GET]
+Rendering template within layouts/main
+Rendering noticias/index
+Completed in 75ms (View: 67, DB: 1) | 200 OK [http://localhost/noticias]
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ClientesController#index (for 127.0.0.1 at 2009-11-19 19:29:27) [GET]
+Rendering template within layouts/main
+Rendering clientes/index
+Completed in 66ms (View: 60, DB: 0) | 200 OK [http://localhost/clientes]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ContactosController#index (for 127.0.0.1 at 2009-11-19 19:29:32) [GET]
+Rendering template within layouts/main
+Rendering contactos/index
+  [4;36;1mContacto Columns (745.0ms)[0m   [0;1mSHOW FIELDS FROM `contactos`[0m
+Rendered contactos/_new_contacto (86.1ms)
+Completed in 924ms (View: 173, DB: 745) | 200 OK [http://localhost/contactos]
+  [4;35;1mSQL (0.2ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MainController#proyectos (for 127.0.0.1 at 2009-11-19 19:29:45) [GET]
+
+ActionController::UnknownAction (No action responded to proyectos. Actions: contactos and index):
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+  -e:2:in `load'
+  -e:2
+
+Rendering rescues/layout (not_found)
+  [4;35;1mSQL (0.2ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing NoticiasController#index (for 127.0.0.1 at 2009-11-19 19:29:56) [GET]
+Rendering template within layouts/main
+Rendering noticias/index
+Completed in 22ms (View: 13, DB: 0) | 200 OK [http://localhost/noticias]
+  [4;35;1mSQL (0.2ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ClientesController#index (for 127.0.0.1 at 2009-11-19 19:30:04) [GET]
+Rendering template within layouts/main
+Rendering clientes/index
+Completed in 88ms (View: 76, DB: 0) | 200 OK [http://localhost/clientes]
+  [4;35;1mSQL (0.2ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing EmpresaController#index (for 127.0.0.1 at 2009-11-19 19:30:05) [GET]
+Rendering template within layouts/main
+Rendering empresa/index
+Completed in 18ms (View: 11, DB: 0) | 200 OK [http://localhost/empresa]
+  [4;35;1mSQL (0.2ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MainController#index (for 127.0.0.1 at 2009-11-19 19:30:28) [GET]
+Rendering template within layouts/main
+Rendering main/index
+Completed in 19ms (View: 13, DB: 0) | 200 OK [http://localhost/]
+  [4;35;1mSQL (0.3ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing EmpresaController#index (for 127.0.0.1 at 2009-11-19 19:30:39) [GET]
+Rendering template within layouts/main
+Rendering empresa/index
+Completed in 19ms (View: 10, DB: 1) | 200 OK [http://localhost/empresa]
+  [4;35;1mSQL (0.2ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (32.8ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ContactosController#index (for 127.0.0.1 at 2009-11-19 19:31:00) [GET]
+Rendering template within layouts/main
+Rendering contactos/index
+  [4;35;1mContacto Columns (29.5ms)[0m   [0mSHOW FIELDS FROM `contactos`[0m
+Rendered contactos/_new_contacto (17.9ms)
+Completed in 255ms (View: 220, DB: 63) | 200 OK [http://localhost/contactos]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MainController#index (for 127.0.0.1 at 2009-11-19 19:31:06) [GET]
+Rendering template within layouts/main
+Rendering main/index
+Completed in 17ms (View: 11, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing NoticiasController#index (for 127.0.0.1 at 2009-11-19 19:31:09) [GET]
+Rendering template within layouts/main
+Rendering noticias/index
+Completed in 19ms (View: 11, DB: 1) | 200 OK [http://localhost/noticias]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ClientesController#index (for 127.0.0.1 at 2009-11-19 19:31:13) [GET]
+Rendering template within layouts/main
+Rendering clientes/index
+Completed in 17ms (View: 11, DB: 0) | 200 OK [http://localhost/clientes]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ContactosController#index (for 127.0.0.1 at 2009-11-19 19:31:16) [GET]
+Rendering template within layouts/main
+Rendering contactos/index
+  [4;36;1mContacto Columns (67.3ms)[0m   [0;1mSHOW FIELDS FROM `contactos`[0m
+Rendered contactos/_new_contacto (18.2ms)
+Completed in 119ms (View: 44, DB: 68) | 200 OK [http://localhost/contactos]
+  [4;35;1mSQL (0.3ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ContactosController#index (for 127.0.0.1 at 2009-11-19 19:33:21) [GET]
+Rendering template within layouts/main
+Rendering contactos/index
+  [4;35;1mContacto Columns (2.2ms)[0m   [0mSHOW FIELDS FROM `contactos`[0m
+Rendered contactos/_new_contacto (17.5ms)
+Completed in 49ms (View: 41, DB: 3) | 200 OK [http://localhost/contactos]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ContactosController#index (for 127.0.0.1 at 2009-11-19 19:33:29) [GET]
+Rendering template within layouts/main
+Rendering contactos/index
+  [4;36;1mContacto Columns (2.1ms)[0m   [0;1mSHOW FIELDS FROM `contactos`[0m
+Rendered contactos/_new_contacto (20.7ms)
+Completed in 58ms (View: 45, DB: 3) | 200 OK [http://localhost/contactos]
+  [4;35;1mSQL (0.2ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ContactosController#index (for 127.0.0.1 at 2009-11-19 19:33:36) [GET]
+Rendering template within layouts/main
+Rendering contactos/index
+  [4;35;1mContacto Columns (2.8ms)[0m   [0mSHOW FIELDS FROM `contactos`[0m
+Rendered contactos/_new_contacto (21.5ms)
+Completed in 56ms (View: 48, DB: 3) | 200 OK [http://localhost/contactos]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MainController#index (for 127.0.0.1 at 2009-11-19 19:33:48) [GET]
+Rendering template within layouts/main
+Rendering main/index
+Completed in 19ms (View: 13, DB: 1) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ContactosController#index (for 127.0.0.1 at 2009-11-19 19:34:15) [GET]
+Rendering template within layouts/main
+Rendering contactos/index
+  [4;36;1mContacto Columns (2.1ms)[0m   [0;1mSHOW FIELDS FROM `contactos`[0m
+Rendered contactos/_new_contacto (18.1ms)
+Completed in 59ms (View: 50, DB: 3) | 200 OK [http://localhost/contactos]
+  [4;35;1mSQL (0.3ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ContactosController#index (for 127.0.0.1 at 2009-11-19 19:41:00) [GET]
+Rendering template within layouts/main
+Rendering contactos/index
+  [4;35;1mContacto Columns (26.1ms)[0m   [0mSHOW FIELDS FROM `contactos`[0m
+Rendered contactos/_new_contacto (150.4ms)
+Completed in 230ms (View: 197, DB: 27) | 200 OK [http://localhost/contactos]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-11-19 19:41:06) [GET]
+
+ActionController::RoutingError (No route matches "/proyectos" with {:method=>:get}):
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+  -e:2:in `load'
+  -e:2
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.5ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.4ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ContactosController#index (for 127.0.0.1 at 2009-11-19 19:46:53) [GET]
+Rendering template within layouts/main
+Rendering contactos/index
+  [4;36;1mContacto Columns (2.5ms)[0m   [0;1mSHOW FIELDS FROM `contactos`[0m
+Rendered contactos/_new_contacto (150.1ms)
+Completed in 462ms (View: 438, DB: 3) | 200 OK [http://localhost/contactos]
+  [4;35;1mSQL (0.3ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ProyectosController#index (for 127.0.0.1 at 2009-11-19 19:46:55) [GET]
+Rendering template within layouts/main
+Rendering proyectos/index
+Completed in 50ms (View: 39, DB: 0) | 200 OK [http://localhost/proyectos]
+  [4;35;1mSQL (0.2ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MainController#hosting (for 127.0.0.1 at 2009-11-19 19:47:01) [GET]
+
+ActionController::UnknownAction (No action responded to hosting. Actions: contactos and index):
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+  /usr/lib/ruby/gems/1.8/gems/ruby-debug-ide-0.4.5/lib/ruby-debug.rb:101:in `debug_load'
+  /usr/lib/ruby/gems/1.8/gems/ruby-debug-ide-0.4.5/lib/ruby-debug.rb:101:in `debug_program'
+  /usr/lib/ruby/gems/1.8/gems/ruby-debug-ide-0.4.5/bin/rdebug-ide:82
+  /usr/bin/rdebug-ide:19:in `load'
+  /usr/bin/rdebug-ide:19
+  -e:2:in `load'
+  -e:2
+
+Rendering rescues/layout (not_found)
+  [4;35;1mSQL (0.2ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ProyectosController#index (for 127.0.0.1 at 2009-11-19 19:48:23) [GET]
+Rendering template within layouts/main
+Rendering proyectos/index
+Completed in 38ms (View: 30, DB: 0) | 200 OK [http://localhost/proyectos]
+  [4;35;1mSQL (0.3ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HostingController#index (for 127.0.0.1 at 2009-11-19 19:48:25) [GET]
+Rendering template within layouts/main
+Rendering hosting/index
+Completed in 119ms (View: 101, DB: 1) | 200 OK [http://localhost/hosting]
+  [4;35;1mSQL (0.4ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ServiciosController#index (for 127.0.0.1 at 2009-11-19 19:48:27) [GET]
+Rendering template within layouts/main
+Rendering servicios/index
+Completed in 86ms (View: 72, DB: 1) | 200 OK [http://localhost/servicios]
+  [4;35;1mSQL (0.3ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ServiciosController#index (for 127.0.0.1 at 2009-11-19 19:49:34) [GET]
+Rendering template within layouts/main
+Rendering servicios/index
+Completed in 36ms (View: 28, DB: 1) | 200 OK [http://localhost/servicios]
+  [4;35;1mSQL (0.2ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ProyectosController#index (for 127.0.0.1 at 2009-11-19 19:49:40) [GET]
+Rendering template within layouts/main
+Rendering proyectos/index
+Completed in 25ms (View: 15, DB: 0) | 200 OK [http://localhost/proyectos]
+  [4;35;1mSQL (0.3ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HostingController#index (for 127.0.0.1 at 2009-11-19 19:49:41) [GET]
+Rendering template within layouts/main
+Rendering hosting/index
+Completed in 21ms (View: 11, DB: 0) | 200 OK [http://localhost/hosting]
+  [4;35;1mSQL (0.3ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ServiciosController#index (for 127.0.0.1 at 2009-11-19 19:49:42) [GET]
+Rendering template within layouts/main
+Rendering servicios/index
+Completed in 25ms (View: 15, DB: 0) | 200 OK [http://localhost/servicios]
+  [4;35;1mSQL (0.2ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ContactosController#index (for 127.0.0.1 at 2009-11-19 19:49:43) [GET]
+Rendering template within layouts/main
+Rendering contactos/index
+  [4;35;1mContacto Columns (2.1ms)[0m   [0mSHOW FIELDS FROM `contactos`[0m
+Rendered contactos/_new_contacto (25.4ms)
+Completed in 68ms (View: 58, DB: 3) | 200 OK [http://localhost/contactos]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ServiciosController#index (for 127.0.0.1 at 2009-11-19 19:51:45) [GET]
+Rendering template within layouts/main
+Rendering servicios/index
+Completed in 21ms (View: 14, DB: 0) | 200 OK [http://localhost/servicios]
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ContactosController#index (for 127.0.0.1 at 2009-11-19 19:51:47) [GET]
+Rendering template within layouts/main
+Rendering contactos/index
+  [4;36;1mContacto Columns (2.3ms)[0m   [0;1mSHOW FIELDS FROM `contactos`[0m
+Rendered contactos/_new_contacto (23.6ms)
+Completed in 61ms (View: 51, DB: 3) | 200 OK [http://localhost/contactos]
+  [4;35;1mSQL (0.2ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MainController#clientes (for 127.0.0.1 at 2009-11-19 19:51:52) [GET]
+
+ActionController::UnknownAction (No action responded to clientes. Actions: contactos and index):
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+  /usr/lib/ruby/gems/1.8/gems/ruby-debug-ide-0.4.5/lib/ruby-debug.rb:101:in `debug_load'
+  /usr/lib/ruby/gems/1.8/gems/ruby-debug-ide-0.4.5/lib/ruby-debug.rb:101:in `debug_program'
+  /usr/lib/ruby/gems/1.8/gems/ruby-debug-ide-0.4.5/bin/rdebug-ide:82
+  /usr/bin/rdebug-ide:19:in `load'
+  /usr/bin/rdebug-ide:19
+  -e:2:in `load'
+  -e:2
+
+Rendering rescues/layout (not_found)
+  [4;35;1mSQL (0.3ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ContactosController#index (for 127.0.0.1 at 2009-11-19 19:52:43) [GET]
+Rendering template within layouts/main
+Rendering contactos/index
+  [4;35;1mContacto Columns (2.4ms)[0m   [0mSHOW FIELDS FROM `contactos`[0m
+Rendered contactos/_new_contacto (24.5ms)
+Completed in 83ms (View: 72, DB: 3) | 200 OK [http://localhost/contactos]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ContactosController#index (for 127.0.0.1 at 2009-11-19 19:52:45) [GET]
+Rendering template within layouts/main
+Rendering contactos/index
+  [4;36;1mContacto Columns (2.2ms)[0m   [0;1mSHOW FIELDS FROM `contactos`[0m
+Rendered contactos/_new_contacto (26.7ms)
+Completed in 67ms (View: 56, DB: 3) | 200 OK [http://localhost/contactos]
+  [4;35;1mSQL (0.3ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MainController#index (for 127.0.0.1 at 2009-11-19 19:52:46) [GET]
+Rendering template within layouts/main
+Rendering main/index
+Completed in 45ms (View: 37, DB: 1) | 200 OK [http://localhost/]
+  [4;35;1mSQL (0.2ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MainController#index (for 127.0.0.1 at 2009-11-19 19:56:00) [GET]
+Rendering template within layouts/main
+Rendering main/index
+Completed in 43ms (View: 31, DB: 0) | 200 OK [http://localhost/]
+  [4;35;1mSQL (0.2ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MainController#index (for 127.0.0.1 at 2009-11-19 19:56:42) [GET]
+Rendering template within layouts/main
+Rendering main/index
+Completed in 37ms (View: 28, DB: 0) | 200 OK [http://localhost/]
+  [4;35;1mSQL (0.3ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ClientesController#index (for 127.0.0.1 at 2009-11-19 19:56:46) [GET]
+Rendering template within layouts/main
+Rendering clientes/index
+Completed in 127ms (View: 112, DB: 1) | 200 OK [http://localhost/clientes]
+  [4;35;1mSQL (0.3ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ContactosController#index (for 127.0.0.1 at 2009-11-19 19:57:29) [GET]
+Rendering template within layouts/main
+Rendering contactos/index
+  [4;35;1mContacto Columns (98.9ms)[0m   [0mSHOW FIELDS FROM `contactos`[0m
+Rendered contactos/_new_contacto (27.3ms)
+Completed in 162ms (View: 53, DB: 99) | 200 OK [http://localhost/contactos]
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing EmpresaController#index (for 127.0.0.1 at 2009-11-19 19:57:50) [GET]
+Rendering template within layouts/main
+Rendering empresa/index
+Completed in 69ms (View: 60, DB: 1) | 200 OK [http://localhost/empresa]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ClientesController#index (for 127.0.0.1 at 2009-11-19 19:57:53) [GET]
+Rendering template within layouts/main
+Rendering clientes/index
+Completed in 22ms (View: 13, DB: 0) | 200 OK [http://localhost/clientes]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ContactosController#index (for 127.0.0.1 at 2009-11-19 19:57:57) [GET]
+Rendering template within layouts/main
+Rendering contactos/index
+  [4;36;1mContacto Columns (2.1ms)[0m   [0;1mSHOW FIELDS FROM `contactos`[0m
+Rendered contactos/_new_contacto (26.4ms)
+Completed in 62ms (View: 51, DB: 3) | 200 OK [http://localhost/contactos]
+  [4;35;1mSQL (0.2ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ClientesController#index (for 127.0.0.1 at 2009-11-19 19:58:41) [GET]
+Rendering template within layouts/main
+Rendering clientes/index
+Completed in 37ms (View: 28, DB: 0) | 200 OK [http://localhost/clientes]
+  [4;35;1mSQL (0.3ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ClientesController#index (for 127.0.0.1 at 2009-11-19 20:00:12) [GET]
+Rendering template within layouts/main
+Rendering clientes/index
+Completed in 46ms (View: 35, DB: 1) | 200 OK [http://localhost/clientes]
+  [4;35;1mSQL (0.3ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MainController#index (for 127.0.0.1 at 2009-11-19 20:00:15) [GET]
+Rendering template within layouts/main
+Rendering main/index
+Completed in 51ms (View: 29, DB: 1) | 200 OK [http://localhost/]
+  [4;35;1mSQL (0.2ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing EmpresaController#index (for 127.0.0.1 at 2009-11-19 20:00:19) [GET]
+Rendering template within layouts/main
+Rendering empresa/index
+Completed in 52ms (View: 34, DB: 0) | 200 OK [http://localhost/empresa]
+  [4;35;1mSQL (0.2ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing NoticiasController#index (for 127.0.0.1 at 2009-11-19 20:00:23) [GET]
+Rendering template within layouts/main
+Rendering noticias/index
+Completed in 76ms (View: 68, DB: 0) | 200 OK [http://localhost/noticias]
+  [4;35;1mSQL (0.2ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ClientesController#index (for 127.0.0.1 at 2009-11-19 20:00:26) [GET]
+Rendering template within layouts/main
+Rendering clientes/index
+Completed in 25ms (View: 13, DB: 0) | 200 OK [http://localhost/clientes]
+  [4;35;1mSQL (0.3ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.5ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ContactosController#index (for 127.0.0.1 at 2009-11-19 20:00:29) [GET]
+Rendering template within layouts/main
+Rendering contactos/index
+  [4;35;1mContacto Columns (3.6ms)[0m   [0mSHOW FIELDS FROM `contactos`[0m
+Rendered contactos/_new_contacto (257.7ms)
+Completed in 325ms (View: 308, DB: 4) | 200 OK [http://localhost/contactos]
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.4ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HostingController#index (for 127.0.0.1 at 2009-11-19 20:00:35) [GET]
+Rendering template within layouts/main
+Rendering hosting/index
+Completed in 34ms (View: 25, DB: 1) | 200 OK [http://localhost/hosting]
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ProyectosController#index (for 127.0.0.1 at 2009-11-19 20:00:37) [GET]
+Rendering template within layouts/main
+Rendering proyectos/index
+Completed in 24ms (View: 12, DB: 1) | 200 OK [http://localhost/proyectos]
+  [4;36;1mSQL (0.5ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ServiciosController#index (for 127.0.0.1 at 2009-11-19 20:00:38) [GET]
+Rendering template within layouts/main
+Rendering servicios/index
+Completed in 20ms (View: 12, DB: 1) | 200 OK [http://localhost/servicios]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ServiciosController#index (for 127.0.0.1 at 2009-11-19 20:01:23) [GET]
+Rendering template within layouts/main
+Rendering servicios/index
+Completed in 21ms (View: 12, DB: 0) | 200 OK [http://localhost/servicios]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ServiciosController#index (for 127.0.0.1 at 2009-11-19 20:01:32) [GET]
+Rendering template within layouts/main
+Rendering servicios/index
+Completed in 19ms (View: 11, DB: 0) | 200 OK [http://localhost/servicios]
+  [4;36;1mSQL (3.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing EmpresaController#index (for 127.0.0.1 at 2009-11-19 20:02:12) [GET]
+Rendering template within layouts/main
+Rendering empresa/index
+Completed in 20ms (View: 11, DB: 3) | 200 OK [http://localhost/empresa]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ContactosController#index (for 127.0.0.1 at 2009-11-19 20:02:17) [GET]
+Rendering template within layouts/main
+Rendering contactos/index
+  [4;36;1mContacto Columns (6.4ms)[0m   [0;1mSHOW FIELDS FROM `contactos`[0m
+Rendered contactos/_new_contacto (38.9ms)
+Completed in 112ms (View: 82, DB: 7) | 200 OK [http://localhost/contactos]
+  [4;36;1mSQL (30.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (27.7ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MainController#index (for 127.0.0.1 at 2009-11-20 09:04:03) [GET]
+Rendering template within layouts/main
+Rendering main/index
+Completed in 577ms (View: 570, DB: 58) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ContactosController#index (for 127.0.0.1 at 2009-11-20 09:06:24) [GET]
+Rendering template within layouts/main
+Rendering contactos/index
+  [4;36;1mContacto Columns (498.1ms)[0m   [0;1mSHOW FIELDS FROM `contactos`[0m
+Rendered contactos/_new_contacto (131.6ms)
+Completed in 712ms (View: 207, DB: 499) | 200 OK [http://localhost/contactos]
+  [4;35;1mSQL (0.2ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ContactosController#index (for 127.0.0.1 at 2009-11-20 09:15:27) [GET]
+Rendering template within layouts/main
+Rendering contactos/index
+  [4;35;1mContacto Columns (2.5ms)[0m   [0mSHOW FIELDS FROM `contactos`[0m
+Rendered contactos/_new_contacto (19.8ms)
+Completed in 52ms (View: 42, DB: 3) | 200 OK [http://localhost/contactos]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ContactosController#index (for 127.0.0.1 at 2009-11-20 09:15:52) [GET]
+Rendering template within layouts/main
+Rendering contactos/index
+  [4;36;1mContacto Columns (2.8ms)[0m   [0;1mSHOW FIELDS FROM `contactos`[0m
+Rendered contactos/_new_contacto (18.9ms)
+Completed in 51ms (View: 42, DB: 3) | 200 OK [http://localhost/contactos]
+  [4;35;1mSQL (0.2ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ContactosController#index (for 127.0.0.1 at 2009-11-20 09:15:56) [GET]
+Rendering template within layouts/main
+Rendering contactos/index
+  [4;35;1mContacto Columns (2.3ms)[0m   [0mSHOW FIELDS FROM `contactos`[0m
+Rendered contactos/_new_contacto (18.1ms)
+Completed in 49ms (View: 40, DB: 3) | 200 OK [http://localhost/contactos]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ContactosController#index (for 127.0.0.1 at 2009-11-20 09:16:01) [GET]
+Rendering template within layouts/main
+Rendering contactos/index
+  [4;36;1mContacto Columns (2.4ms)[0m   [0;1mSHOW FIELDS FROM `contactos`[0m
+Rendered contactos/_new_contacto (20.1ms)
+Completed in 52ms (View: 42, DB: 3) | 200 OK [http://localhost/contactos]
+  [4;35;1mSQL (0.2ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ContactosController#index (for 127.0.0.1 at 2009-11-20 09:16:13) [GET]
+Rendering template within layouts/main
+Rendering contactos/index
+  [4;35;1mContacto Columns (2.5ms)[0m   [0mSHOW FIELDS FROM `contactos`[0m
+Rendered contactos/_new_contacto (19.4ms)
+Completed in 51ms (View: 40, DB: 3) | 200 OK [http://localhost/contactos]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ContactosController#index (for 127.0.0.1 at 2009-11-20 09:16:15) [GET]
+Rendering template within layouts/main
+Rendering contactos/index
+  [4;36;1mContacto Columns (2.4ms)[0m   [0;1mSHOW FIELDS FROM `contactos`[0m
+Rendered contactos/_new_contacto (17.5ms)
+Completed in 46ms (View: 38, DB: 3) | 200 OK [http://localhost/contactos]
+  [4;35;1mSQL (0.3ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ContactosController#index (for 127.0.0.1 at 2009-11-20 09:16:49) [GET]
+Rendering template within layouts/main
+Rendering contactos/index
+  [4;35;1mContacto Columns (2.7ms)[0m   [0mSHOW FIELDS FROM `contactos`[0m
+Rendered contactos/_new_contacto (19.4ms)
+Completed in 51ms (View: 42, DB: 3) | 200 OK [http://localhost/contactos]
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ContactosController#index (for 127.0.0.1 at 2009-11-20 09:16:50) [GET]
+Rendering template within layouts/main
+Rendering contactos/index
+  [4;36;1mContacto Columns (2.5ms)[0m   [0;1mSHOW FIELDS FROM `contactos`[0m
+Rendered contactos/_new_contacto (18.4ms)
+Completed in 50ms (View: 41, DB: 3) | 200 OK [http://localhost/contactos]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ContactosController#index (for 127.0.0.1 at 2009-11-20 09:16:52) [GET]
+Rendering template within layouts/main
+Rendering contactos/index
+  [4;35;1mContacto Columns (1.1ms)[0m   [0mSHOW FIELDS FROM `contactos`[0m
+Rendered contactos/_new_contacto (7.5ms)
+Completed in 24ms (View: 20, DB: 1) | 200 OK [http://localhost/contactos]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ContactosController#index (for 127.0.0.1 at 2009-11-20 09:16:53) [GET]
+Rendering template within layouts/main
+Rendering contactos/index
+  [4;36;1mContacto Columns (1.0ms)[0m   [0;1mSHOW FIELDS FROM `contactos`[0m
+Rendered contactos/_new_contacto (7.6ms)
+Completed in 21ms (View: 17, DB: 1) | 200 OK [http://localhost/contactos]
+  [4;35;1mSQL (0.2ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ContactosController#index (for 127.0.0.1 at 2009-11-20 09:17:49) [GET]
+Rendering template within layouts/main
+Rendering contactos/index
+  [4;35;1mContacto Columns (2.5ms)[0m   [0mSHOW FIELDS FROM `contactos`[0m
+Rendered contactos/_new_contacto (21.2ms)
+Completed in 55ms (View: 44, DB: 3) | 200 OK [http://localhost/contactos]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ContactosController#index (for 127.0.0.1 at 2009-11-20 09:17:51) [GET]
+Rendering template within layouts/main
+Rendering contactos/index
+  [4;36;1mContacto Columns (2.5ms)[0m   [0;1mSHOW FIELDS FROM `contactos`[0m
+Rendered contactos/_new_contacto (20.8ms)
+Completed in 54ms (View: 46, DB: 3) | 200 OK [http://localhost/contactos]
+  [4;35;1mSQL (0.3ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ContactosController#index (for 127.0.0.1 at 2009-11-20 09:17:52) [GET]
+Rendering template within layouts/main
+Rendering contactos/index
+  [4;35;1mContacto Columns (2.4ms)[0m   [0mSHOW FIELDS FROM `contactos`[0m
+Rendered contactos/_new_contacto (19.6ms)
+Completed in 298ms (View: 288, DB: 3) | 200 OK [http://localhost/contactos]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ContactosController#index (for 127.0.0.1 at 2009-11-20 09:18:03) [GET]
+Rendering template within layouts/main
+Rendering contactos/index
+  [4;36;1mContacto Columns (2.8ms)[0m   [0;1mSHOW FIELDS FROM `contactos`[0m
+Rendered contactos/_new_contacto (18.8ms)
+Completed in 50ms (View: 41, DB: 3) | 200 OK [http://localhost/contactos]
+  [4;35;1mSQL (0.2ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ContactosController#index (for 127.0.0.1 at 2009-11-20 09:18:15) [GET]
+Rendering template within layouts/main
+Rendering contactos/index
+  [4;35;1mContacto Columns (3.2ms)[0m   [0mSHOW FIELDS FROM `contactos`[0m
+Rendered contactos/_new_contacto (19.9ms)
+Completed in 58ms (View: 48, DB: 4) | 200 OK [http://localhost/contactos]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ContactosController#index (for 127.0.0.1 at 2009-11-20 09:18:18) [GET]
+Rendering template within layouts/main
+Rendering contactos/index
+  [4;36;1mContacto Columns (2.4ms)[0m   [0;1mSHOW FIELDS FROM `contactos`[0m
+Rendered contactos/_new_contacto (18.2ms)
+Completed in 50ms (View: 41, DB: 3) | 200 OK [http://localhost/contactos]
+  [4;35;1mSQL (0.3ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ContactosController#index (for 127.0.0.1 at 2009-11-20 09:18:20) [GET]
+Rendering template within layouts/main
+Rendering contactos/index
+  [4;35;1mContacto Columns (2.2ms)[0m   [0mSHOW FIELDS FROM `contactos`[0m
+Rendered contactos/_new_contacto (18.1ms)
+Completed in 49ms (View: 40, DB: 3) | 200 OK [http://localhost/contactos]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ContactosController#index (for 127.0.0.1 at 2009-11-20 09:18:21) [GET]
+Rendering template within layouts/main
+Rendering contactos/index
+  [4;36;1mContacto Columns (1.5ms)[0m   [0;1mSHOW FIELDS FROM `contactos`[0m
+Rendered contactos/_new_contacto (8.5ms)
+Completed in 22ms (View: 18, DB: 2) | 200 OK [http://localhost/contactos]
+  [4;35;1mSQL (0.2ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ContactosController#index (for 127.0.0.1 at 2009-11-20 09:18:31) [GET]
+Rendering template within layouts/main
+Rendering contactos/index
+  [4;35;1mContacto Columns (37.0ms)[0m   [0mSHOW FIELDS FROM `contactos`[0m
+Rendered contactos/_new_contacto (20.6ms)
+Completed in 88ms (View: 44, DB: 38) | 200 OK [http://localhost/contactos]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ContactosController#index (for 127.0.0.1 at 2009-11-20 09:18:51) [GET]
+Rendering template within layouts/main
+Rendering contactos/index
+  [4;36;1mContacto Columns (2.5ms)[0m   [0;1mSHOW FIELDS FROM `contactos`[0m
+Rendered contactos/_new_contacto (19.9ms)
+Completed in 54ms (View: 42, DB: 3) | 200 OK [http://localhost/contactos]
+  [4;35;1mSQL (0.2ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ContactosController#index (for 127.0.0.1 at 2009-11-20 09:19:10) [GET]
+Rendering template within layouts/main
+Rendering contactos/index
+  [4;35;1mContacto Columns (3.5ms)[0m   [0mSHOW FIELDS FROM `contactos`[0m
+Rendered contactos/_new_contacto (17.5ms)
+Completed in 54ms (View: 42, DB: 4) | 200 OK [http://localhost/contactos]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ContactosController#index (for 127.0.0.1 at 2009-11-20 09:19:29) [GET]
+Rendering template within layouts/main
+Rendering contactos/index
+  [4;36;1mContacto Columns (2.8ms)[0m   [0;1mSHOW FIELDS FROM `contactos`[0m
+Rendered contactos/_new_contacto (18.0ms)
+Completed in 50ms (View: 40, DB: 3) | 200 OK [http://localhost/contactos]
+  [4;35;1mSQL (0.2ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ContactosController#index (for 127.0.0.1 at 2009-11-20 09:22:38) [GET]
+Rendering template within layouts/main
+Rendering contactos/index
+  [4;35;1mContacto Columns (15.6ms)[0m   [0mSHOW FIELDS FROM `contactos`[0m
+Rendered contactos/_new_contacto (18.3ms)
+Completed in 62ms (View: 40, DB: 16) | 200 OK [http://localhost/contactos]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ContactosController#index (for 127.0.0.1 at 2009-11-20 09:22:52) [GET]
+Rendering template within layouts/main
+Rendering contactos/index
+  [4;36;1mContacto Columns (2.4ms)[0m   [0;1mSHOW FIELDS FROM `contactos`[0m
+Rendered contactos/_new_contacto (17.5ms)
+Completed in 47ms (View: 38, DB: 3) | 200 OK [http://localhost/contactos]
+  [4;35;1mSQL (0.3ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ContactosController#index (for 127.0.0.1 at 2009-11-20 09:29:49) [GET]
+Rendering template within layouts/main
+Rendering contactos/index
+  [4;35;1mContacto Columns (2.5ms)[0m   [0mSHOW FIELDS FROM `contactos`[0m
+Rendered contactos/_new_contacto (18.4ms)
+Completed in 63ms (View: 54, DB: 3) | 200 OK [http://localhost/contactos]

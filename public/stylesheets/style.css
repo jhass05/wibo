@@ -68,7 +68,7 @@ ul{list-style-type:none;}
 #footerPanel ul li a{padding:0 6px; color:#4C4C4C; background:#DCDCDC; text-decoration:none;}
 #footerPanel ul li a:hover{text-decoration:underline;}
 #footerPanel ul li a.padl{padding:0 0 0 6px;}
-#footerPanel p.copyright{background:#DCDCDC; display:block; position:absolute; top:54px; right:45px; color:#A64200;}
+#footerPanel p.copyright{background:#DCDCDC; display:block; position:absolute; top:54px; right:40px; color:#A64200;}
 #footerPanel ul.templateworld{width:158px; background:#DCDCDC; color:#4C4C4C; display:block; position:absolute; top:74px; right:40px;}
 #footerPanel ul.templateworld li a{background:#DCDCDC; display:block; color:#4C4C4C; text-decoration:none;}
 #footerPanel ul.templateworld li a:hover{text-decoration:underline;}
