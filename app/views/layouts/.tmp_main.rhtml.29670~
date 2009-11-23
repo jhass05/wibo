@@ -1,0 +1,59 @@
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<title>Wibo SRL</title>
+
+<!-- START:stylesheet -->
+  <%= stylesheet_link_tag "style", :media => "all" %>
+<!-- END:stylesheet -->
+</head>
+
+<body>
+<div id="topPanel">
+<ul>
+<li class="active"><a href="/contactos">Contactos</a></li>
+<li class="active"><a href="/clientes">Clientes</a></li>
+<li class="active"><a href="/noticias">Noticias</a></li>
+<li class="active"><a href="/empresa">Empresa</a></li>
+<li class="active"><a href="/">Inicio</a></li>
+</ul>
+<a href="index.html"><%= image_tag "logo_wibo.png", :border=> "0" %></a>
+<div id="headerPanelfast">
+	<h2>Proyectos</h2>
+	<p>Tus objetivos nuestras metas</p>
+	<a href="/proyectos"></a></div>
+<div id="headerPanelsecond">
+	<h2>Hosting</h2>
+	<p>Hospedaje web y mucho mas</p>
+	<a href="/hosting"></a></div>
+<div id="headerPanelthird">
+	<h2>Servicios</h2>
+	<p>Desarrollamos tus sueños </p>
+	<a href="/servicios"></a></div>
+</div>
+
+<!-- START:contenido dinamico del layout -->
+<div id="bodyPanel">
+      <%= yield :layout %>
+</div>
+<!-- END:contenido dinamico del layout -->
+
+<div id="footerPanel">
+  <div id="footerbodyPanel">
+  <ul>
+  <li><%= link_to 'Inicio', {:controller => "main"}%>| </li>
+  <li><%= link_to 'Empresa', {:controller => "empresa", :action => "index"}%>| </li>
+  <li><%= link_to 'Noticias', {:controller => "noticias", :action => "index"}%>| </li>
+  <li><%= link_to 'Clientes', {:controller => "clientes", :action => "index"}%>| </li>
+  <li><%= link_to 'Contactos', {:controller => "contactos", :action => "index"}%> </li>
+  </ul>
+  <p class="copyright">© Wibo sudando software. 2009</p></br>
+  
+   <div id="footerhtmlPanel"><a href="http://validator.w3.org/check?uri=referer" target="_blank">html</a></div>
+   <div id="footercssPanel"><a href="http://jigsaw.w3.org/css-validator/check/referer" target="_blank">css</a></div>
+  </div>
+</div>
+</body>
+</html>
+
