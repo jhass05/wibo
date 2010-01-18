@@ -3,14 +3,8 @@ class ContactosController < ApplicationController
   layout "main"
     
   def index
+      @contacto = Contacto.new
       
-      
-  end
-
-  def send
-     
-     @contacto = Contacto.new
-
   end
   
 end 
