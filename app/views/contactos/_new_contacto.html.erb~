@@ -4,7 +4,7 @@
             <li>Nombre: <%= f.text_field :name, :size => 15 %></li>
             <li>Telefono: <%= f.text_field :phone, :size => 15 %></li>
             <li>Email: <%= f.text_field :email, :size => 15 %></li>
-            <li>Empresa: <%= f.text_field :company :size => 15 %></li>
+            <li>Empresa: <%= f.text_field :company, :size => 15 %></li>
             <li>Mensaje: <%= f.text_area :message , :cols =>"35", :rows =>"5" %></li>
             <div id="botton"><%= f.submit "Enviar" %></div>
         </ul>

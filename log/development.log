@@ -13694,3 +13694,227 @@ ActionController::UnknownAction (No action responded to create. Actions: index):
   /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
 
 Rendering rescues/layout (not_found)
+  [4;36;1mSQL (119.6ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (26.5ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MainController#index (for 127.0.0.1 at 2010-01-19 09:33:30) [GET]
+Rendering template within layouts/main
+Rendering main/index
+Completed in 98ms (View: 95, DB: 146) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ContactosController#index (for 127.0.0.1 at 2010-01-19 09:33:35) [GET]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-01-19 09:33:35) [GET]
+
+ArgumentError (wrong number of arguments (1 for 0)):
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (34.1ms)
+Rendered rescues/_request_and_response (2.0ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MainController#index (for 127.0.0.1 at 2010-01-19 09:34:25) [GET]
+Rendering template within layouts/main
+Rendering main/index
+Completed in 42ms (View: 39, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ContactosController#index (for 127.0.0.1 at 2010-01-19 09:34:28) [GET]
+Rendering template within layouts/main
+Rendering contactos/index
+  [4;36;1mContacto Columns (514.9ms)[0m   [0;1mSHOW FIELDS FROM `contactos`[0m
+Rendered contactos/_new_contacto (63.8ms)
+Completed in 691ms (View: 172, DB: 515) | 200 OK [http://localhost/contactos]
+  [4;35;1mSQL (0.2ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ContactosController#save (for 127.0.0.1 at 2010-01-19 09:34:54) [POST]
+  Parameters: {"commit"=>"Enviar", "authenticity_token"=>"iUwb/ELfW1ldo/0p16IcNokomesqLcv9RDTAMOToUXk=", "contacto"=>{"company"=>"hfdsh", "name"=>"goma", "phone"=>"232", "message"=>"sjdfhsk", "email"=>"fsdf@sdf.com"}}
+  [4;35;1mContacto Columns (2.0ms)[0m   [0mSHOW FIELDS FROM `contactos`[0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mContacto Create (272.2ms)[0m   [0mINSERT INTO `contactos` (`name`, `company`, `created_at`, `updated_at`, `phone`, `message`, `email`) VALUES('goma', 'hfdsh', '2010-01-19 13:34:54', '2010-01-19 13:34:54', '232', 'sjdfhsk', 'fsdf@sdf.com')[0m
+  [4;36;1mSQL (53.8ms)[0m   [0;1mCOMMIT[0m
+
+ActionView::MissingTemplate (Missing template contactos/save.erb in view path app/views):
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (internal_server_error)
+  [4;35;1mSQL (0.8ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.9ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ContactosController#save (for 127.0.0.1 at 2010-01-19 09:36:14) [POST]
+  Parameters: {"commit"=>"Enviar", "authenticity_token"=>"iUwb/ELfW1ldo/0p16IcNokomesqLcv9RDTAMOToUXk=", "contacto"=>{"company"=>"wibo", "name"=>"jhass", "phone"=>"21212", "message"=>"holad sdasdsdad", "email"=>"jhass@sdf.com"}}
+  [4;35;1mContacto Columns (2.3ms)[0m   [0mSHOW FIELDS FROM `contactos`[0m
+  [4;36;1mSQL (1.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mContacto Create (0.7ms)[0m   [0mINSERT INTO `contactos` (`name`, `company`, `created_at`, `updated_at`, `phone`, `message`, `email`) VALUES('jhass', 'wibo', '2010-01-19 13:36:14', '2010-01-19 13:36:14', '21212', 'holad sdasdsdad', 'jhass@sdf.com')[0m
+  [4;36;1mSQL (41.4ms)[0m   [0;1mCOMMIT[0m
+
+ActionView::MissingTemplate (Missing template contactos/save.erb in view path app/views):
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (internal_server_error)
+  [4;35;1mSQL (0.5ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ContactosController#index (for 127.0.0.1 at 2010-01-19 09:36:42) [GET]
+Rendering template within layouts/main
+Rendering contactos/index
+  [4;35;1mContacto Columns (2.2ms)[0m   [0mSHOW FIELDS FROM `contactos`[0m
+Rendered contactos/_new_contacto (19.0ms)
+Completed in 49ms (View: 40, DB: 3) | 200 OK [http://localhost/contactos]
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ContactosController#save (for 127.0.0.1 at 2010-01-19 09:36:47) [POST]
+  Parameters: {"commit"=>"Enviar", "authenticity_token"=>"iUwb/ELfW1ldo/0p16IcNokomesqLcv9RDTAMOToUXk=", "contacto"=>{"company"=>"wibo", "name"=>"jhass2", "phone"=>"21212", "message"=>"holad sdasdsdad", "email"=>"jhass@sdf.com"}}
+  [4;36;1mContacto Columns (2.2ms)[0m   [0;1mSHOW FIELDS FROM `contactos`[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mContacto Create (0.3ms)[0m   [0;1mINSERT INTO `contactos` (`name`, `company`, `created_at`, `updated_at`, `phone`, `message`, `email`) VALUES('jhass2', 'wibo', '2010-01-19 13:36:47', '2010-01-19 13:36:47', '21212', 'holad sdasdsdad', 'jhass@sdf.com')[0m
+  [4;35;1mSQL (51.1ms)[0m   [0mCOMMIT[0m
+Redirected to http://localhost:3000index
+Completed in 75ms (DB: 54) | 302 Found [http://localhost/contactos/save]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.4ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ContactosController#save (for 127.0.0.1 at 2010-01-19 09:36:47) [POST]
+  Parameters: {"commit"=>"Enviar", "authenticity_token"=>"iUwb/ELfW1ldo/0p16IcNokomesqLcv9RDTAMOToUXk=", "contacto"=>{"company"=>"wibo", "name"=>"jhass2", "phone"=>"21212", "message"=>"holad sdasdsdad", "email"=>"jhass@sdf.com"}}
+  [4;36;1mContacto Columns (1.2ms)[0m   [0;1mSHOW FIELDS FROM `contactos`[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mContacto Create (0.4ms)[0m   [0;1mINSERT INTO `contactos` (`name`, `company`, `created_at`, `updated_at`, `phone`, `message`, `email`) VALUES('jhass2', 'wibo', '2010-01-19 13:36:47', '2010-01-19 13:36:47', '21212', 'holad sdasdsdad', 'jhass@sdf.com')[0m
+  [4;35;1mSQL (71.8ms)[0m   [0mCOMMIT[0m
+Redirected to http://localhost:3000index
+Completed in 87ms (DB: 74) | 302 Found [http://localhost/contactos/save]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ContactosController#save (for 127.0.0.1 at 2010-01-19 09:36:47) [POST]
+  Parameters: {"commit"=>"Enviar", "authenticity_token"=>"iUwb/ELfW1ldo/0p16IcNokomesqLcv9RDTAMOToUXk=", "contacto"=>{"company"=>"wibo", "name"=>"jhass2", "phone"=>"21212", "message"=>"holad sdasdsdad", "email"=>"jhass@sdf.com"}}
+  [4;36;1mContacto Columns (2.3ms)[0m   [0;1mSHOW FIELDS FROM `contactos`[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mBEGIN[0m
+  [4;36;1mContacto Create (0.6ms)[0m   [0;1mINSERT INTO `contactos` (`name`, `company`, `created_at`, `updated_at`, `phone`, `message`, `email`) VALUES('jhass2', 'wibo', '2010-01-19 13:36:47', '2010-01-19 13:36:47', '21212', 'holad sdasdsdad', 'jhass@sdf.com')[0m
+  [4;35;1mSQL (65.5ms)[0m   [0mCOMMIT[0m
+Redirected to http://localhost:3000index
+Completed in 97ms (DB: 69) | 302 Found [http://localhost/contactos/save]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ContactosController#save (for 127.0.0.1 at 2010-01-19 09:36:47) [POST]
+  Parameters: {"commit"=>"Enviar", "authenticity_token"=>"iUwb/ELfW1ldo/0p16IcNokomesqLcv9RDTAMOToUXk=", "contacto"=>{"company"=>"wibo", "name"=>"jhass2", "phone"=>"21212", "message"=>"holad sdasdsdad", "email"=>"jhass@sdf.com"}}
+  [4;36;1mContacto Columns (1.0ms)[0m   [0;1mSHOW FIELDS FROM `contactos`[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mContacto Create (0.3ms)[0m   [0;1mINSERT INTO `contactos` (`name`, `company`, `created_at`, `updated_at`, `phone`, `message`, `email`) VALUES('jhass2', 'wibo', '2010-01-19 13:36:47', '2010-01-19 13:36:47', '21212', 'holad sdasdsdad', 'jhass@sdf.com')[0m
+  [4;35;1mSQL (65.7ms)[0m   [0mCOMMIT[0m
+Redirected to http://localhost:3000index
+Completed in 80ms (DB: 67) | 302 Found [http://localhost/contactos/save]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ContactosController#save (for 127.0.0.1 at 2010-01-19 09:36:47) [POST]
+  Parameters: {"commit"=>"Enviar", "authenticity_token"=>"iUwb/ELfW1ldo/0p16IcNokomesqLcv9RDTAMOToUXk=", "contacto"=>{"company"=>"wibo", "name"=>"jhass2", "phone"=>"21212", "message"=>"holad sdasdsdad", "email"=>"jhass@sdf.com"}}
+  [4;36;1mContacto Columns (1.1ms)[0m   [0;1mSHOW FIELDS FROM `contactos`[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mContacto Create (0.3ms)[0m   [0;1mINSERT INTO `contactos` (`name`, `company`, `created_at`, `updated_at`, `phone`, `message`, `email`) VALUES('jhass2', 'wibo', '2010-01-19 13:36:47', '2010-01-19 13:36:47', '21212', 'holad sdasdsdad', 'jhass@sdf.com')[0m
+  [4;35;1mSQL (61.2ms)[0m   [0mCOMMIT[0m
+Redirected to http://localhost:3000index
+Completed in 77ms (DB: 63) | 302 Found [http://localhost/contactos/save]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ContactosController#save (for 127.0.0.1 at 2010-01-19 09:36:48) [POST]
+  Parameters: {"commit"=>"Enviar", "authenticity_token"=>"iUwb/ELfW1ldo/0p16IcNokomesqLcv9RDTAMOToUXk=", "contacto"=>{"company"=>"wibo", "name"=>"jhass2", "phone"=>"21212", "message"=>"holad sdasdsdad", "email"=>"jhass@sdf.com"}}
+  [4;36;1mContacto Columns (1.1ms)[0m   [0;1mSHOW FIELDS FROM `contactos`[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mContacto Create (0.3ms)[0m   [0;1mINSERT INTO `contactos` (`name`, `company`, `created_at`, `updated_at`, `phone`, `message`, `email`) VALUES('jhass2', 'wibo', '2010-01-19 13:36:48', '2010-01-19 13:36:48', '21212', 'holad sdasdsdad', 'jhass@sdf.com')[0m
+  [4;35;1mSQL (62.3ms)[0m   [0mCOMMIT[0m
+Redirected to http://localhost:3000index
+Completed in 78ms (DB: 64) | 302 Found [http://localhost/contactos/save]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ContactosController#save (for 127.0.0.1 at 2010-01-19 09:36:48) [POST]
+  Parameters: {"commit"=>"Enviar", "authenticity_token"=>"iUwb/ELfW1ldo/0p16IcNokomesqLcv9RDTAMOToUXk=", "contacto"=>{"company"=>"wibo", "name"=>"jhass2", "phone"=>"21212", "message"=>"holad sdasdsdad", "email"=>"jhass@sdf.com"}}
+  [4;36;1mContacto Columns (2.7ms)[0m   [0;1mSHOW FIELDS FROM `contactos`[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mBEGIN[0m
+  [4;36;1mContacto Create (1.3ms)[0m   [0;1mINSERT INTO `contactos` (`name`, `company`, `created_at`, `updated_at`, `phone`, `message`, `email`) VALUES('jhass2', 'wibo', '2010-01-19 13:36:48', '2010-01-19 13:36:48', '21212', 'holad sdasdsdad', 'jhass@sdf.com')[0m
+  [4;35;1mSQL (50.2ms)[0m   [0mCOMMIT[0m
+Redirected to http://localhost:3000index
+Completed in 83ms (DB: 55) | 302 Found [http://localhost/contactos/save]
+  [4;36;1mSQL (8.3ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ContactosController#index (for 127.0.0.1 at 2010-01-19 09:37:59) [GET]
+Rendering template within layouts/main
+Rendering contactos/index
+  [4;36;1mContacto Columns (2.3ms)[0m   [0;1mSHOW FIELDS FROM `contactos`[0m
+Rendered contactos/_new_contacto (19.4ms)
+Completed in 51ms (View: 41, DB: 11) | 200 OK [http://localhost/contactos]
+  [4;35;1mSQL (14.2ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ContactosController#save (for 127.0.0.1 at 2010-01-19 09:38:03) [POST]
+  Parameters: {"commit"=>"Enviar", "authenticity_token"=>"iUwb/ELfW1ldo/0p16IcNokomesqLcv9RDTAMOToUXk=", "contacto"=>{"company"=>"wibo", "name"=>"jhass3", "phone"=>"21212", "message"=>"holad sdasdsdad", "email"=>"jhass@sdf.com"}}
+  [4;35;1mContacto Columns (2.2ms)[0m   [0mSHOW FIELDS FROM `contactos`[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mContacto Create (0.9ms)[0m   [0mINSERT INTO `contactos` (`name`, `company`, `created_at`, `updated_at`, `phone`, `message`, `email`) VALUES('jhass3', 'wibo', '2010-01-19 13:38:03', '2010-01-19 13:38:03', '21212', 'holad sdasdsdad', 'jhass@sdf.com')[0m
+  [4;36;1mSQL (55.2ms)[0m   [0;1mCOMMIT[0m
+Redirected to http://localhost:3000/contactos
+Completed in 91ms (DB: 73) | 302 Found [http://localhost/contactos/save]
+  [4;35;1mSQL (16.8ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (3.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ContactosController#index (for 127.0.0.1 at 2010-01-19 09:38:03) [GET]
+Rendering template within layouts/main
+Rendering contactos/index
+  [4;35;1mContacto Columns (3.1ms)[0m   [0mSHOW FIELDS FROM `contactos`[0m
+Rendered contactos/_new_contacto (18.2ms)
+Completed in 51ms (View: 41, DB: 23) | 200 OK [http://localhost/contactos]

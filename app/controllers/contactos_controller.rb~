@@ -3,8 +3,15 @@ class ContactosController < ApplicationController
   layout "main"
     
   def index
-      @contacto = Contacto.new
       
+      
+  end
+
+  def save
+     @contacto = Contacto.new
+     @contacto.attributes = params[:contacto]  
+     @contacto.save
+     redirect_to 'index'
   end
   
 end 
