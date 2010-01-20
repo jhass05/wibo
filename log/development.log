@@ -22126,3 +22126,87 @@ Rendering template within layouts/main
 Rendering main/index
 Completed in 14ms (View: 11, DB: 0) | 200 OK [http://localhost/]
 >>>>>>> ab405dafb73657b92e84273ca54fec04add257ae:log/development.log
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ContactosController#index (for 127.0.0.1 at 2010-01-20 18:21:59) [GET]
+Rendering template within layouts/main
+Rendering contactos/index
+  [4;36;1mContacto Columns (24.2ms)[0m   [0;1mSHOW FIELDS FROM `contactos`[0m
+Rendered contactos/_new_contacto (34.5ms)
+Completed in 110ms (View: 83, DB: 24) | 200 OK [http://localhost/contactos]
+  [4;35;1mSQL (11.3ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ContactosController#save (for 127.0.0.1 at 2010-01-20 18:22:35) [POST]
+  Parameters: {"commit"=>"Enviar", "authenticity_token"=>"TX0GsFsBYi2ahwknoVk1IyIi5kpGjN+oHwiJ85h1wBg=", "contacto"=>{"company"=>"", "name"=>"hbm,", "phone"=>"", "message"=>"", "email"=>""}}
+
+ActionController::UnknownAction (No action responded to save. Actions: guardar and index):
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+  [4;35;1mSQL (28.8ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ContactosController#index (for 127.0.0.1 at 2010-01-20 18:23:56) [GET]
+Rendering template within layouts/main
+Rendering contactos/index
+  [4;35;1mContacto Columns (2.4ms)[0m   [0mSHOW FIELDS FROM `contactos`[0m
+Rendered contactos/_new_contacto (23.2ms)
+Completed in 65ms (View: 56, DB: 32) | 200 OK [http://localhost/contactos]
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ContactosController#guardar (for 127.0.0.1 at 2010-01-20 18:24:00) [POST]
+  Parameters: {"commit"=>"Enviar", "authenticity_token"=>"TX0GsFsBYi2ahwknoVk1IyIi5kpGjN+oHwiJ85h1wBg=", "contacto"=>{"company"=>"", "name"=>"hbm,", "phone"=>"", "message"=>"jatfdhfxdghb", "email"=>""}}
+  [4;36;1mContacto Columns (3.4ms)[0m   [0;1mSHOW FIELDS FROM `contactos`[0m
+  [4;35;1mSQL (0.4ms)[0m   [0mBEGIN[0m
+  [4;36;1mContacto Create (0.9ms)[0m   [0;1mINSERT INTO `contactos` (`name`, `company`, `created_at`, `updated_at`, `phone`, `message`, `email`) VALUES('hbm,', '', '2010-01-20 22:24:00', '2010-01-20 22:24:00', '', 'jatfdhfxdghb', '')[0m
+  [4;35;1mSQL (59.4ms)[0m   [0mCOMMIT[0m
+Redirected to http://localhost:3000/contactos
+Completed in 96ms (DB: 65) | 302 Found [http://localhost/contactos/guardar]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ContactosController#index (for 127.0.0.1 at 2010-01-20 18:24:00) [GET]
+Rendering template within layouts/main
+Rendering contactos/index
+  [4;36;1mContacto Columns (2.3ms)[0m   [0;1mSHOW FIELDS FROM `contactos`[0m
+Rendered contactos/_new_contacto (18.4ms)
+Completed in 48ms (View: 39, DB: 3) | 200 OK [http://localhost/contactos]
+  [4;35;1mSQL (0.2ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ContactosController#guardar (for 127.0.0.1 at 2010-01-20 18:25:11) [POST]
+  Parameters: {"commit"=>"Enviar", "authenticity_token"=>"TX0GsFsBYi2ahwknoVk1IyIi5kpGjN+oHwiJ85h1wBg=", "contacto"=>{"company"=>"", "name"=>"sdsf", "phone"=>"fdsf", "message"=>"", "email"=>"fdsfds"}}
+  [4;35;1mContacto Columns (2.4ms)[0m   [0mSHOW FIELDS FROM `contactos`[0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mContacto Create (0.7ms)[0m   [0mINSERT INTO `contactos` (`name`, `company`, `created_at`, `updated_at`, `phone`, `message`, `email`) VALUES('sdsf', '', '2010-01-20 22:25:11', '2010-01-20 22:25:11', 'fdsf', '', 'fdsfds')[0m
+  [4;36;1mSQL (47.6ms)[0m   [0;1mCOMMIT[0m
+Redirected to http://localhost:3000/contactos
+Completed in 81ms (DB: 51) | 302 Found [http://localhost/contactos/guardar]
+  [4;35;1mSQL (12.3ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ContactosController#index (for 127.0.0.1 at 2010-01-20 18:25:11) [GET]
+Rendering template within layouts/main
+Rendering contactos/index
+  [4;35;1mContacto Columns (2.4ms)[0m   [0mSHOW FIELDS FROM `contactos`[0m
+Rendered contactos/_new_contacto (19.0ms)
+Completed in 50ms (View: 40, DB: 15) | 200 OK [http://localhost/contactos]

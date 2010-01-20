@@ -1,21 +1,6 @@
-<<<<<<< HEAD:app/views/contactos/_new_contacto.html.erb~
-   <h4>Contacto</h4>
-
-   <%= form_remote_tag :update => "contacto", 
-                       :url=> {:action=>'save'} %>
-        <ul>
-            <div id='contacto'></div>
-            <li>Nombre: <%= text_field_tag :name %></li>
-            <li>Telefono: <%= text_field_tag :phone %></li>
-            <li>Email: <%= text_field_tag :email %></li>
-            <li>Empresa: <%= text_field_tag :company %></li>
-            <li>Mensaje: <%= text_area_tag :message %></li>
-            <div id="botton"><%= submit_tag "Enviar" %></div>
-        </ul>
-   <%= form_tag %> 
-=======
 <h3>Contacto</h3>   
-  	<% form_for (contacto, :url=> {:action=>'save'}) do |f|%>
+  	
+<% form_for (contacto, :url=> {:action=>'save'}) do |f|%>
   
 	<div id="contactosPanel">	    	
 	<ul> 	
@@ -55,4 +40,3 @@
 	</div>
 <% end %> 
 
->>>>>>> b723431cc7022e0cab2705d518d7d7cf81cabc86:app/views/contactos/_new_contacto.html.erb~
