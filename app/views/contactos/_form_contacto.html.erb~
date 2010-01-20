@@ -1,9 +1,9 @@
    <h4>Contacto</h4>
 
-   <%= form_remote_tag :update => "contacto", 
-                       :url=> {:action=>'save'} %>
+   <%= form_remote_tag :update => 'display', 
+                       :url=> {:action => :save } %>
         <ul>
-            <div id='contacto'></div>
+            <div id="contacto"></div>
             <li>Nombre: <%= text_field_tag :name %></li>
             <li>Telefono: <%= text_field_tag :phone %></li>
             <li>Email: <%= text_field_tag :email %></li>

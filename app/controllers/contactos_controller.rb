@@ -7,7 +7,7 @@ class ContactosController < ApplicationController
       
   end
 
-  def save
+  def guardar
      @contacto = Contacto.new
      @contacto.attributes = params[:contacto]  
      @contacto.save

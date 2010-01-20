@@ -7,11 +7,11 @@ class ContactosController < ApplicationController
       
   end
 
-  def save
+  def guardar
      @contacto = Contacto.new
      @contacto.attributes = params[:contacto]  
      @contacto.save
-     redirect_to 'index'
+     redirect_to '/index'
   end
   
 end 

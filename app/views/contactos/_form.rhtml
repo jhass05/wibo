@@ -1,0 +1,14 @@
+   <h4>Contacto</h4>
+
+   <%= form_remote_tag :update => 'display', :controller => 'store',
+                       :url=> {:action => :guardar } %>
+        
+            <span id="display">ghfhf</span>
+            Nombre: <%= text_field_tag :name %>
+            Telefono: <%= text_field_tag :phone %>
+            Email: <%= text_field_tag :email %>
+            Empresa: <%= text_field_tag :company %>
+            Mensaje: <%= text_area_tag :message %>
+            <%= submit_tag "Enviar" %>
+        
+   <%= form_tag %> 
