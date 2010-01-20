@@ -86,6 +86,7 @@ ul{list-style-type:none;}
 #contactosPanel ul li{font:12px/25px "Trebuchet MS",Arial, Helvetica, sans-serif;font-weight:normal; color:#216EBD; padding:0 0 0 10px;}
 #tableEnsayo{font: .9em/1.5em "Trebuchet MS", Tahoma, Arial, sans-serif;
 color: #666;
+background: ;
 text-align: left;
 padding: 5px;
 border-top: 1px dotted #eee; }

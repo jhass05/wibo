@@ -1,3 +1,4 @@
+<<<<<<< HEAD:app/views/contactos/_new_contacto.html.erb~
    <h4>Contacto</h4>
 
    <%= form_remote_tag :update => "contacto", 
@@ -12,3 +13,46 @@
             <div id="botton"><%= submit_tag "Enviar" %></div>
         </ul>
    <%= form_tag %> 
+=======
+<h3>Contacto</h3>   
+  	<% form_for (contacto, :url=> {:action=>'save'}) do |f|%>
+  
+	<div id="contactosPanel">	    	
+	<ul> 	
+	<table id="tableEnsayo">
+	    
+	<tr>
+	<td><li>Nombre:</li></td>
+	<td><%= f.text_field :name, :size => 25%></td>          
+	</tr>
+
+	<tr>
+	<td><li>Telefono:</li></td>
+	<td><%= f.text_field :phone, :size => 25 %></td>
+        </tr>   
+
+	<tr>
+	<td><li>Email:</td> 
+	<td><%= f.text_field :email, :size => 25 %></li></td>
+	<tr>
+            
+	<tr>
+	<td><li>Empresa: </td>
+	<td><%= f.text_field :company, :size => 25 %></li></td>
+	</tr>
+
+	<tr>
+	<td><li>Mensaje:</td>
+	<td><%= f.text_area :message , :cols =>"29", :rows =>"5" %></li></td>
+	</tr>    
+	
+	<tr>
+	<td></td><td align="center"><li><div id="botton"><%= f.submit "Enviar"%></div></li></td>	
+	</tr>
+	
+	</table>  
+	</ul>
+	</div>
+<% end %> 
+
+>>>>>>> b723431cc7022e0cab2705d518d7d7cf81cabc86:app/views/contactos/_new_contacto.html.erb~
