@@ -1,11 +1,41 @@
-   <h4>Contacto</h4>
-   <% form_for (contacto, :url=> {:action=>'index'}) do |f|%>
-        <ul>
-            <li>Nombre: <%= f.text_field :name, :size => 15 %></li>
-            <li>Telefono: <%= f.text_field :phone, :size => 15 %></li>
-            <li>Email: <%= f.text_field :email, :size => 15 %></li>
-            <li>Empresa: <%= f.text_field :company, :size => 15 %></li>
-            <li>Mensaje: <%= f.text_area :message , :cols =>"35", :rows =>"5" %></li>
-            <div id="botton"><%= f.submit "Enviar" %></div>
-        </ul>
-   <% end %> 
+<h3>Contacto</h3>   
+  	<% form_for (contacto, :url=> {:action=>'save'}) do |f|%>
+  
+	<div id="contactosPanel">	    	
+	<ul> 	
+	<table id="tableEnsayo">
+	    
+	<tr>
+	<td><li>Nombre:</li></td>
+	<td><%= f.text_field :name, :size => 25%></td>          
+	</tr>
+
+	<tr>
+	<td><li>Telefono:</li></td>
+	<td><%= f.text_field :phone, :size => 25 %></td>
+        </tr>   
+
+	<tr>
+	<td><li>Email:</td> 
+	<td><%= f.text_field :email, :size => 25 %></li></td>
+	<tr>
+            
+	<tr>
+	<td><li>Empresa: </td>
+	<td><%= f.text_field :company, :size => 25 %></li></td>
+	</tr>
+
+	<tr>
+	<td><li>Mensaje:</td>
+	<td><%= f.text_area :message , :cols =>"29", :rows =>"5" %></li></td>
+	</tr>    
+	
+	<tr>
+	<td></td><td align="center"><li><div id="botton"><%= f.submit "Enviar"%></div></li></td>	
+	</tr>
+	
+	</table>  
+	</ul>
+	</div>
+<% end %> 
+
