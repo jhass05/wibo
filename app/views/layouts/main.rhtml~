@@ -2,11 +2,13 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<meta name="google-site-verification" content="H0Q_mM_vW4UTcwG0xTu_ERD5cbcLnAWezED0K48mKnk" />
 <title>Wibo SRL</title>
 
 <!-- START:stylesheet -->
   <%= stylesheet_link_tag "style", :media => "all" %>
 <!-- END:stylesheet -->
+
 </head>
 
 <body>
@@ -18,7 +20,7 @@
 <li class="active"><a href="/empresa">Empresa</a></li>
 <li class="active"><a href="/">Inicio</a></li>
 </ul>
-<a href="index.html"><%= image_tag "logo_wibo.png", :border=> "0" %></a>
+<%= image_tag "logo_wibo.png", :border=> "0" %>
 <div id="headerPanelfast">
 	<h2>Proyectos</h2>
 	<p>Tus objetivos nuestras metas</p>
