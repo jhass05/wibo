@@ -21992,3 +21992,47 @@ Rendering contactos/index
 Rendered contactos/_new_contacto (18.5ms)
 Completed in 57ms (View: 47, DB: 3) | 200 OK [http://localhost/contactos]
 >>>>>>> b723431cc7022e0cab2705d518d7d7cf81cabc86:log/development.log
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-01-20 13:04:15) [GET]
+
+ActionController::RoutingError (No route matches "/inicio" with {:method=>:get}):
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MainController#index (for 127.0.0.1 at 2010-01-20 13:04:22) [GET]
+Rendering template within layouts/main
+Rendering main/index
+Completed in 120ms (View: 117, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ContactosController#index (for 127.0.0.1 at 2010-01-20 13:04:25) [GET]
+Rendering template within layouts/main
+Rendering contactos/index
+Rendered contactos/_form (27.2ms)
+Completed in 61ms (View: 58, DB: 0) | 200 OK [http://localhost/contactos]
+  [4;36;1mSQL (0.5ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MainController#index (for 127.0.0.1 at 2010-01-20 13:40:54) [GET]
+Rendering template within layouts/main
+Rendering main/index
+Completed in 7ms (View: 4, DB: 1) | 200 OK [http://localhost/]
