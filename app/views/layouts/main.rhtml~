@@ -18,7 +18,7 @@
 <li class="active"><a href="/empresa">Empresa</a></li>
 <li class="active"><a href="/">Inicio</a></li>
 </ul>
-<a href="index.html"><%= image_tag "logo_wibo.png", :border=> "0" %></a>
+<%= image_tag "logo_wibo.png", :border=> "0" %>
 <div id="headerPanelfast">
 	<h2>Proyectos</h2>
 	<p>Tus objetivos nuestras metas</p>
