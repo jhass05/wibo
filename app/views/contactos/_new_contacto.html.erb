@@ -4,7 +4,7 @@
   
 	<div id="contactosPanel">	    	
 	<ul> 	
-	<table id="tableEnsayo">
+	<table>
 	    
 	<tr>
 	<td><li>Nombre:</li></td>
@@ -18,21 +18,21 @@
 
 	<tr>
 	<td><li>Email:</td> 
-	<td><%= f.text_field :email, :size => 25 %></li></td>
+	<td><%= f.text_field :email, :size => 25 %></td>
 	<tr>
             
 	<tr>
 	<td><li>Empresa: </td>
-	<td><%= f.text_field :company, :size => 25 %></li></td>
+	<td><%= f.text_field :company, :size => 25 %></td>
 	</tr>
 
 	<tr>
 	<td><li>Mensaje:</td>
-	<td><%= f.text_area :message , :cols =>"29", :rows =>"5" %></li></td>
+	<td><%= f.text_area :message , :cols =>"29", :rows =>"5" %></td>
 	</tr>    
 	
 	<tr>
-	<td></td><td align="center"><li><div id="botton"><%= f.submit "Enviar"%></div></li></td>	
+	<td></td><td align="center"><li><div id="botton"><%= f.submit "Enviar"%></div></td>	
 	</tr>
 	
 	</table>  

@@ -1,10 +1,10 @@
 <h3>Contacto</h3>   
   	
-<% form_for (contacto, :url=> {:action=>'save'}) do |f|%>
+<% form_for (contacto, :url=> {:action=>'guardar'}) do |f|%>
   
 	<div id="contactosPanel">	    	
 	<ul> 	
-	<table id="tableEnsayo">
+	<table>
 	    
 	<tr>
 	<td><li>Nombre:</li></td>
@@ -18,7 +18,7 @@
 
 	<tr>
 	<td><li>Email:</td> 
-	<td><%= f.text_field :email, :size => 25 %></li></td>
+	<td><%= f.text_field :email, :size => 25 %></td>
 	<tr>
             
 	<tr>
