@@ -45,7 +45,7 @@ ul{list-style-type:none;}
 #bodyPanel p.more a{width:76px; height:26px; display:block; margin:314px 20px 19px 618px; background:url(../images/more.gif) 0 0 no-repeat #fff; color:#555; text-decoration:none; font:15px/26px "Trebuchet MS",Arial, Helvetica, sans-serif; padding:0 0 0 10px; text-transform:uppercase; position:absolute; top:0px; right:0px;}
 #bodyPanel p.more a:hover{background:url(../images/more.gif) 0 0 no-repeat #fff; color:#216EBD; text-decoration:none;}
 #bodyPanel h3{background:#fff; display:block; width:350px; height:34px; margin:34px 0 12px 0; font:30px/30px Georgia, "Times New Roman", Times, serif; font-weight:normal; padding:0 0 0 20px; color:#FF7113;}
-#bodyPanel #testimonial{width:630px; height:180px; display:block; background:url(../images/testimonial-bg.gif); background-repeat: repeat-x ; padding:52px 0 0 128px; margin:0 0 0 0px; color:#786321;}
+#bodyPanel #testimonial{width:630px; height:250px; display:block; background:url(../images/testimonial-bg.gif); background-repeat: repeat-x ; padding:52px 0 0 128px; margin:0 0 0 0px; color:#786321;}
 #bodyPanel #testimonial p{background:none; margin:0; padding:0 0 5px 0;}
 #bodyPanel #testimonial p span{color:#786321 !Important; background:#FFFAED !Important;}
 #bodyPanel p.moretwo{height:26px; padding:0; background:none; margin:0;}
@@ -100,4 +100,4 @@ td {
   background-color:#DCDCDC;
   padding:3px;
  }
-
+#logo {background:url(../images/logo.png);}

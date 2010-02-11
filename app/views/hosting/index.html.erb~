@@ -3,13 +3,13 @@
 <div id="table1">
 <table>
 <li>Servicios de hosting, alojamiento web, mantenimiento de paginas</li>	
-	<br><br>	
+	<br>	
 	<tr>
-	<td>PLAN</td>
-	<td>BASICO</td>
-	<td>INTERMEDIO</td>
-	<td>MEDIO</td>
-	<td>PROFESIONAL</td>
+	<td><b>PLAN</b></td>
+	<td><b>BASICO</b></td>
+	<td><b>INTERMEDIO</b></td>
+	<td><b>MEDIO</b></td>
+	<td><b>PROFESIONAL</b></td>
 	</tr>
 
 	<tr>
@@ -28,13 +28,7 @@
 	<td>1</td>
 	</tr>
 
-	<tr>
-	<td>Sub-dominios</td>
-	<td>1</td>
-	<td>3</td>
-	<td>5</td>
-	<td>10</td>
-	</tr>
+	
 
 	<tr>
 	<td>Cuentas-correo</td>
@@ -54,10 +48,31 @@
 
 	<tr>
 	<td>Costo Anual</td>
-	<td>75 $us</td>
-	<td>95 $us</td>
-	<td>120 $us</td>
-	<td>155 $us</td>
+	<td>35 $us</td>
+	<td>55 $us</td>
+	<td>80 $us</td>
+	<td>115 $us</td>
 	</tr>
 </table>
 </div>
+* Al precio anual se tiene que adicionar el costo de la siguiente tabla segun el dominio seleccionado
+<div>
+<table>
+<tr>
+<td><b><center>COSTO ANUAL</center></b></td>
+<td><b><center>DOMINIO</center></b></td>
+<td><b><center>EJEMPLO</center></b></td>
+</tr>
+<tr>
+<td>$ 40</td> <td>.com.bo .org.bo .net.bo</td><td>www.tunombre.com.bo</td>
+</tr>
+<tr>
+<td>$ 40</td><td>.gob.bo .edu.bo .tv.bo .mil.bo</td><td>www.tunombre.gob.bo</td>
+</tr>
+<tr>
+<td>$ 220</td><td>.bo</td><td>www.tunombre.bo</td>
+</tr>
+</table>
+</diV>
+
+
