@@ -88,7 +88,7 @@ ul{list-style-type:none;}
 table {margin: auto;
   background-color:aliceblue;
   border-spacing:2px;
-font:12px/25px "Trebuchet MS",Arial, Helvetica, sans-serif;font-weight:normal; color:#216EBD;
+font:12px/25px "Trebuchet MS",Arial, Helvetica, sans-serif;font-weight:normal; color:;
 }
 th {
   
@@ -100,4 +100,4 @@ td {
   background-color:#DCDCDC;
   padding:3px;
  }
-
+	

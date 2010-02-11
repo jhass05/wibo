@@ -1,12 +1,11 @@
-<div id="bodyPanel">
+<div id="">
 	
 	<p class="dotline"><img src="images/blank.gif" alt="" width="1" height="1" /></p>
-        <div id = "display">
-	<%= render :partial => 'form_contacto' %>
-        </div>
-<div id="testimonial">
+
+	<%= render :partial => "new_contacto" , :locals => {:contacto => Contacto.new}%>
+<div id="">
 	<p><span>Edificio Rosario, segundo piso </span><br> oficina # 210 Cochabamba. <br>
-	Telefono: (591)4-4527593 <br>Email: contactos@wibo.com.bo</p>
+	Telefono: (591)4-4527593 <br>Email: info@wibo.com.bo</p>
 	
 </div>
 </div>

@@ -2,10 +2,10 @@
   	
 <% form_for (contacto, :url=> {:action=>'guardar'}) do |f|%>
   
-	<div id="contactosPanel">	    	
-	<ul> 	
-	<table>
-	    
+	<div id="testomonial">	    	
+	<ul>	
+	  <br><br>
+	 
 	<tr>
 	<td><li>Nombre:</li></td>
 	<td><%= f.text_field :name, :size => 25%></td>          
@@ -17,25 +17,25 @@
         </tr>   
 
 	<tr>
-	<td><li>Email:</td> 
+	<td><li>Email:</li></td> 
 	<td><%= f.text_field :email, :size => 25 %></td>
 	<tr>
             
 	<tr>
-	<td><li>Empresa: </td>
-	<td><%= f.text_field :company, :size => 25 %></li></td>
+	<td><li>Empresa:</li></td>
+	<td><%= f.text_field :company, :size => 25 %></td>
 	</tr>
 
 	<tr>
-	<td><li>Mensaje:</td>
-	<td><%= f.text_area :message , :cols =>"29", :rows =>"5" %></li></td>
+	<td><li>Mensaje:</li></td>
+	<td><%= f.text_area :message , :cols =>"29", :rows =>"2" %></td>
 	</tr>    
 	
 	<tr>
-	<td></td><td align="center"><li><div id="botton"><%= f.submit "Enviar"%></div></li></td>	
+	<td></td><td align="center"><li><div id="botton"><%= f.submit "Enviar"%></div></td>	
 	</tr>
-	
-	</table>  
+		
+		  
 	</ul>
 	</div>
 <% end %> 
